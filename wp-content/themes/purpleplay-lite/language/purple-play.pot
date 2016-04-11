@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PurplePlay Lite\n"
+"POT-Creation-Date: 2015-09-07 15:13+0530\n"
+"PO-Revision-Date: 2015-09-07 15:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: SketchThemes <info@sketchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: ../404.php:31
+msgid "Page Not Found."
+msgstr ""
+
+#: ../404.php:32
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:45
+msgid "Home"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:189 ../author.php:13
+msgid "Author"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:197
+msgid "Tag"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:205 ../sidebar-footer.php:45
+msgid "Search"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:211
+msgid "Error 404"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:12
+msgid "Purple Play Themes widget for Featured Box"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:15
+msgid "Featured Box - Purple Play"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:53
+#: ../includes/front-feature-box-section.php:16
+#: ../includes/front-feature-box-section.php:28
+#: ../includes/front-feature-box-section.php:40
+msgid "Read more"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:106
+msgid "Title:"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:109
+msgid "Use Image"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:112
+msgid "Image"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:115
+msgid "Upload Image"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:118
+msgid "Featured Box Icon Class:"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:120
+msgid "Featured Box Content:"
+msgstr ""
+
+#: ../SketchBoard/functions/skt-featured-widget.php:122
+msgid "Featured Box Link:"
+msgstr ""
+
+#: ../archive.php:13
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:15
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:17
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:54 ../author.php:48 ../category.php:47 ../home.php:43
+#: ../index.php:41 ../page.php:42 ../search.php:58 ../single.php:59
+#: ../tag.php:49 ../template-blog.php:47 ../template_full-width.php:40
+msgid "Not Found"
+msgstr ""
+
+#: ../category.php:13
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments-popup.php:10
+msgid "by"
+msgstr ""
+
+#: ../comments-popup.php:21
+msgid "No comments yet."
+msgstr ""
+
+#: ../comments-popup.php:24
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments-popup.php:25
+msgid ""
+"Line and paragraph breaks automatic, e-mail address never displayed, "
+"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
+msgstr ""
+
+#: ../comments-popup.php:28
+msgid "Logged in as "
+msgstr ""
+
+#: ../comments-popup.php:31
+msgid "Name"
+msgstr ""
+
+#: ../comments-popup.php:39
+msgid "E-mail"
+msgstr ""
+
+#: ../comments-popup.php:44
+msgid "URL"
+msgstr ""
+
+#: ../comments-popup.php:50
+msgid "Your Comment"
+msgstr ""
+
+#: ../comments-popup.php:60
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: ../comments-popup.php:63
+msgid "Close this window."
+msgstr ""
+
+#: ../comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:9 ../content.php:9 ../search.php:43 ../single.php:38
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:9
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:9 ../content.php:9 ../search.php:43 ../single.php:38
+msgid "% Comments "
+msgstr ""
+
+#: ../comments.php:9
+msgid " so far:"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content.php:7 ../search.php:41 ../single.php:36
+msgid "Posted by "
+msgstr ""
+
+#: ../content.php:7 ../content.php:8 ../search.php:41 ../search.php:42
+#: ../single.php:36 ../single.php:37
+msgid "|"
+msgstr ""
+
+#: ../content.php:9 ../search.php:43 ../single.php:38
+msgid "1 Comment"
+msgstr ""
+
+#: ../content.php:13 ../includes/front-blog-section.php:20
+msgid "Read More &rarr;"
+msgstr ""
+
+#: ../footer.php:15
+msgid "SketchThemes"
+msgstr ""
+
+#: ../functions.php:73
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../functions.php:138
+msgid "Untitled"
+msgstr ""
+
+#: ../includes/customizer.php:22
+msgid "Background Image Size"
+msgstr ""
+
+#: ../includes/customizer.php:35
+msgid "Theme Color"
+msgstr ""
+
+#: ../includes/customizer.php:42
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/customizer.php:47
+msgid "Front Page Settings"
+msgstr ""
+
+#: ../includes/customizer.php:58
+msgid "Site Logo"
+msgstr ""
+
+#: ../includes/customizer.php:62
+msgid "Blog Settings"
+msgstr ""
+
+#: ../includes/customizer.php:66
+msgid "Notification Bar Settings"
+msgstr ""
+
+#: ../includes/customizer.php:70
+msgid "Copyright Settings"
+msgstr ""
+
+#: ../includes/customizer.php:78 ../includes/customizer.php:198
+msgid "Feature Box Section"
+msgstr ""
+
+#: ../includes/customizer.php:83
+msgid "Editor Content "
+msgstr ""
+
+#: ../includes/customizer.php:88
+msgid "Front Blogs"
+msgstr ""
+
+#: ../includes/customizer.php:93 ../includes/customizer.php:259
+msgid "Call to Action Section"
+msgstr ""
+
+#: ../includes/customizer.php:98 ../includes/customizer.php:305
+msgid "Clients Section"
+msgstr ""
+
+#: ../includes/customizer.php:116
+msgid "Logo Image"
+msgstr ""
+
+#: ../includes/customizer.php:117
+msgid "Uplaod your beautiful logo image from here. Recomended size 220x40 px."
+msgstr ""
+
+#: ../includes/customizer.php:125
+msgid "Logo Width"
+msgstr ""
+
+#: ../includes/customizer.php:126 ../includes/customizer.php:135
+msgid "in pixels"
+msgstr ""
+
+#: ../includes/customizer.php:134
+msgid "Logo Height"
+msgstr ""
+
+#: ../includes/customizer.php:146
+msgid "Blog Page Title"
+msgstr ""
+
+#: ../includes/customizer.php:159
+msgid "Notification Bar On/Off"
+msgstr ""
+
+#: ../includes/customizer.php:161 ../includes/customizer.php:200
+#: ../includes/customizer.php:218 ../includes/customizer.php:235
+#: ../includes/customizer.php:261 ../includes/customizer.php:307
+msgid "On"
+msgstr ""
+
+#: ../includes/customizer.php:162 ../includes/customizer.php:201
+#: ../includes/customizer.php:219 ../includes/customizer.php:236
+#: ../includes/customizer.php:262 ../includes/customizer.php:308
+msgid "Off"
+msgstr ""
+
+#: ../includes/customizer.php:171
+msgid "Notification Text"
+msgstr ""
+
+#: ../includes/customizer.php:172
+msgid "You can write HTML as well"
+msgstr ""
+
+#: ../includes/customizer.php:179
+msgid "Copyright 2015 - Proudly Powered by WordPress."
+msgstr ""
+
+#: ../includes/customizer.php:185
+msgid "Copyright Text"
+msgstr ""
+
+#: ../includes/customizer.php:203
+msgid ""
+"On/Off the the featured box section. Add the featured widget in 'front-"
+"featured-area'."
+msgstr ""
+
+#: ../includes/customizer.php:216
+msgid "Editor Content ON/OFF"
+msgstr ""
+
+#: ../includes/customizer.php:233
+msgid "Front Blogs ON/OFF"
+msgstr ""
+
+#: ../includes/customizer.php:272
+msgid "Call to Action Content"
+msgstr ""
+
+#: ../includes/front-blog-section.php:28
+msgid "Welcome to WordPress. Create your first post and, start blogging!"
+msgstr ""
+
+#: ../includes/front-clients-section.php:9
+msgid "Lorem ipsum dolor sit amet, constectuter la elet de"
+msgstr ""
+
+#: ../includes/front-feature-box-section.php:13
+#: ../includes/front-feature-box-section.php:25
+#: ../includes/front-feature-box-section.php:37
+msgid "Featured Box"
+msgstr ""
+
+#: ../includes/front-feature-box-section.php:15
+#: ../includes/front-feature-box-section.php:27
+#: ../includes/front-feature-box-section.php:39
+msgid ""
+"Lorem ipsum dolor sit amet con Lorem ipsum dolor sit amet con Lorem ipsum "
+"dolor sit amet con Lorem ipsum dolor sit amet con Lorem ipsum dolor sit amet "
+"con"
+msgstr ""
+
+#: ../page.php:34 ../single.php:47 ../template_full-width.php:32
+msgid "Pages :"
+msgstr ""
+
+#: ../page.php:34 ../single.php:47 ../template_full-width.php:32
+msgid "number"
+msgstr ""
+
+#: ../search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../sidebar-footer.php:21 ../sidebar-footer.php:87
+msgid "Recent Posts"
+msgstr ""
+
+#: ../sidebar-footer.php:57
+msgid "Tag Cloud"
+msgstr ""
+
+#: ../sidebar-footer.php:109
+msgid "Contact Us"
+msgstr ""
+
+#: ../sidebar-footer.php:114
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean com modo "
+"ligula elet dolor. Lorem ipsum dolor sit amet."
+msgstr ""
+
+#: ../sidebar-footer.php:119
+msgid "013-6455-54552"
+msgstr ""
+
+#: ../sidebar-woocommerce.php:8
+msgid "Archives"
+msgstr ""
+
+#: ../single.php:44
+msgid "Tag: "
+msgstr ""
+
+#: ../single.php:46
+msgid "Categories: "
+msgstr ""
+
+#: ../tag.php:18
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../template_full-width.php:33
+msgid "Edit"
+msgstr ""

@@ -1,0 +1,2875 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rational-lite\n"
+"POT-Creation-Date: 2015-05-11 18:50+0530\n"
+"PO-Revision-Date: 2015-05-11 18:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: SketchThemes <info@sketchthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../category.php:17
+#, php-format
+msgid "Category Archives : %s"
+msgstr ""
+
+#: ../category.php:41 ../index.php:39 ../archive.php:55 ../search.php:38
+#: ../author.php:39 ../home.php:39 ../tag.php:43
+msgid "&larr;Previous"
+msgstr ""
+
+#: ../category.php:42 ../index.php:40 ../archive.php:56 ../search.php:39
+#: ../author.php:40 ../home.php:40 ../tag.php:44
+msgid "Next&rarr;"
+msgstr ""
+
+#: ../content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content.php:29 ../single.php:46
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1032
+msgid "On"
+msgstr ""
+
+#: ../content.php:30 ../single.php:47
+msgid "Posted by "
+msgstr ""
+
+#: ../content.php:31 ../single.php:48
+msgid "in "
+msgstr ""
+
+#: ../content.php:33 ../single.php:50
+msgid "With "
+msgstr ""
+
+#: ../content.php:33 ../single.php:50
+msgid "No Comments "
+msgstr ""
+
+#: ../content.php:33 ../single.php:50
+msgid "1 Comment "
+msgstr ""
+
+#: ../content.php:33 ../single.php:50
+msgid "% Comments "
+msgstr ""
+
+#: ../content.php:39
+msgid "Read More"
+msgstr ""
+
+#: ../index.php:35 ../home.php:35
+msgid "<div class='sticky-post'>featured</div>"
+msgstr ""
+
+#: ../single.php:55
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../single.php:58 ../page.php:40 ../template-fullwidth.php:35
+msgid "Pages:"
+msgstr ""
+
+#: ../single.php:68
+msgid "&larr; %link"
+msgstr ""
+
+#: ../single.php:69
+msgid "%link &rarr;"
+msgstr ""
+
+#: ../single.php:81
+msgid "Post Does Not Exist"
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Daily Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Monthly Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "Yearly Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:34
+msgid "Blog Archives"
+msgstr ""
+
+#: ../searchform.php:3 ../searchform.php:6
+#: ../SketchBoard/functions/sketch-breadcrumb.php:169
+msgid "Search"
+msgstr ""
+
+#: ../footer.php:40
+msgid "Rational Theme by"
+msgstr ""
+
+#: ../footer.php:40
+msgid "SketchThemes"
+msgstr ""
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for : %s"
+msgstr ""
+
+#: ../comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:27
+msgid "No Comment"
+msgstr ""
+
+#: ../comments.php:27
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:27
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:27
+msgid " so far:"
+msgstr ""
+
+#: ../comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../page.php:59
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: ../author.php:16
+#, php-format
+msgid "Author Archives : %s"
+msgstr ""
+
+#: ../functions.php:29
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../functions.php:37
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:123
+msgid "Untitled"
+msgstr ""
+
+#: ../tag.php:18
+#, php-format
+msgid "Tag Archives : <span>%s</span>"
+msgstr ""
+
+#: ../template-fullwidth.php:50
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:16
+msgid "404"
+msgstr ""
+
+#: ../404.php:17
+msgid ""
+"Sorry, but the requested resource was not found on this site. Please try "
+"again or contact the administrator for assistance."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:23
+msgid "Sketch Themes"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:59
+msgid "Avis - Business Consulting WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:62
+msgid ""
+"Avis is beautifully carved to bring a highly professional look to these "
+"sites. Adding to the convenience, Avis also combines some innovative "
+"features to bring about the brilliant site experience."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:66
+msgid "Try Avis Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:67
+#: ../SketchBoard/includes/sketchtheme-upsell.php:93
+#: ../SketchBoard/includes/sketchtheme-upsell.php:119
+#: ../SketchBoard/includes/sketchtheme-upsell.php:145
+#: ../SketchBoard/includes/sketchtheme-upsell.php:171
+#: ../SketchBoard/includes/sketchtheme-upsell.php:195
+#: ../SketchBoard/includes/sketchtheme-upsell.php:221
+#: ../SketchBoard/includes/sketchtheme-upsell.php:245
+#: ../SketchBoard/includes/sketchtheme-upsell.php:270
+#: ../SketchBoard/includes/sketchtheme-upsell.php:295
+#: ../SketchBoard/includes/sketchtheme-upsell.php:320
+#: ../SketchBoard/includes/sketchtheme-upsell.php:345
+#: ../SketchBoard/includes/sketchtheme-upsell.php:369
+#: ../SketchBoard/includes/sketchtheme-upsell.php:393
+#: ../SketchBoard/includes/sketchtheme-upsell.php:417
+#: ../SketchBoard/includes/sketchtheme-upsell.php:440
+#: ../SketchBoard/includes/sketchtheme-upsell.php:462
+#: ../SketchBoard/includes/sketchtheme-upsell.php:485
+msgid "View Demo"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:68
+msgid "Buy Avis Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:85
+msgid "Connexions- Corporate Business WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:88
+msgid ""
+"Connexion is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchTheme.com. Using Connexion theme options any one can easily "
+"customize this theme according to their need. You can use your own Logo, "
+"logo alt text, custom favicon, you can add social links, rss feed to "
+"homepage, you can use own copyright text, you can also insert analytics code "
+"etc. And all this information can be entered using Connexion Theme Options "
+"Panel. You have to just set the content from the Connexion Themes Options "
+"Panel and it'll be up ready to use."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:92
+msgid "Try Connexions Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:94
+msgid "Buy Connexions Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:111
+msgid "LeadSurf - App Launch WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:114
+msgid ""
+"Catching up with trend leading to ultra-modern business style, SketchThemes "
+"brings to you its highly innovative and distinctly appealing Lead Capture "
+"Cum Landing Page WordPress Theme â€“ LeadSurf that serves the users with "
+"lead capture form along with app landing page."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:118
+msgid "Try LeadSurf Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:120
+msgid "Buy LeadSurf Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:137
+msgid "InstaAppointment – Responsive Appointment Booking WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:140
+msgid ""
+"InstaAppointment Corporate Responsive WordPress Theme has all that a big "
+"corporate house, business site, creative agency, engineering, real estate or "
+"high-end spa looks for, in order to deck up their websites with next "
+"generation features and beautiful appearance. Instaapp Corporate Responsive "
+"WordPress Themes is packed with some of the unique features that take your "
+"online presence to altogether new level. Instaapp comes with the dedicated "
+"sections of Latest Projects and Skills Section along with Full Screen "
+"Revolution slider."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:144
+msgid "Try InstaAppointment Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:146
+msgid "Buy InstaAppointment Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:163
+msgid "Eptima - Corporate Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:166
+msgid ""
+"Eptima Corporate Responsive WordPress Theme has all that a big corporate "
+"house, business site, creative agency, engineering, real estate or high-end "
+"spa looks for, in order to deck up their websites with next generation "
+"features and beautiful appearance. Eptima Corporate Responsive WordPress "
+"Themes is packed with some of the unique features that take your online "
+"presence to altogether new level. Eptima comes with the dedicated sections "
+"of Latest Projects and Skills Section along with Full Screen Revolution "
+"slider."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:170
+msgid "Try Eptima Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:172
+msgid "Buy Eptima Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:187
+msgid "Rational – Impressive One Pager Responsive Business WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:190
+msgid ""
+"Every business requires an approach that shows the logic behind floating the "
+"trade and the exact objective with which the venture is initiated.Adding a "
+"rational approach to every business in the first place, the Rational – One "
+"Pager Responsive Business WordPress Theme certainly promises to better "
+"user’s experience."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:194
+msgid "Try Rational Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:196
+msgid "Buy Rational Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:213
+msgid "InCart - Responsive WooCommerce WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:216
+msgid ""
+"SketchThemes continues the legacy of best multipurpose responsive business "
+"WordPress themes. Here we are gearing up to introduce a new WooCommerce "
+"WordPress theme which keeps it at the top priority for the customers to "
+"proliferate their business. This classy theme is fully WooCommerce "
+"compatible, SEO optimized and fully responsive so forget the fear of screen "
+"sizes, SEO optimization, just go and grab it."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:220
+msgid "Try Incart Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:222
+msgid "Buy Incart Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:238
+msgid "Convac - Responsive Multi Author Blogging Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:241
+msgid ""
+"Convac is elegant WordPress theme solely designed for web bloggers. The main "
+"aim of theme is to improve blog’s appearance for the end users and making "
+"blog posting a cakewalk task for bloggers. The theme has options and "
+"features which can customize blog as per your user and interest. Design for "
+"bloggers, theme is equipped with integrated features such as- post share, "
+"post like, subscription widget, supports to all post formats and many more."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:244
+msgid "Try Convac Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:246
+msgid "Buy Convac Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:262
+msgid "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:265
+msgid ""
+"Foodeez Lite is the the classy theme created for Restaurants and hotel "
+"Industry. To provide a Classy, elegant theme for the hospitality industry "
+"and to fill in the void Foodeez was designed. Every restaurant or hotel "
+"desires to showcase it's cuisines and ambiance in a beautiful manner. This "
+"was not satiated by any prior theme. Hence, Foodeez was designed. Now you "
+"can enjoy a fully Responsive, and Full-width Header Background Image with "
+"floating navigation which gets converted into Persistent Navigation on "
+"scroll down.The Amazing Parallax section allows you to showcase your Super-"
+"Specialty Signature Dishes or your Dish of the Day. In short, if you're a "
+"chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition "
+"expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a "
+"food enthusiast, who want to share the love of food. Then this theme is "
+"Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you "
+"feel wow. The blog page is clean and designed to The Theme is Loaded with "
+"feature which you won't find on any other Lite Themes with this much "
+"precision and quality."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:269
+msgid "Try Foodeez Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:271
+msgid "Buy Foodeez Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:287
+msgid "Advertica - Creative MultiPurpose WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:290
+#: ../SketchBoard/includes/sketchtheme-upsell.php:315
+msgid ""
+"A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. "
+"With easy customization options one can easily setup a perfect business "
+"theme in a few minutes. The striking features of INVERT are Easy Custom "
+"Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, "
+"Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured "
+"Text."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:294
+msgid "Try Advertica Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:296
+msgid "Buy Advertica Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:312
+msgid "Invert - Responsive MultiPurpose WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:319
+msgid "Try Invert Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:321
+msgid "Buy Invert Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:337
+msgid "Biznez - Multi Purpose Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:340
+msgid ""
+"BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and "
+"crispy design. BizNez is modern and flexible enough. It allows you to create "
+"your website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online "
+"store or any other kind of website BizNez will be a good pick for you. With "
+"our advanced admin panel, tons of customizations are possible and that&#39;"
+"ll help you redefine your website&#39;s brand value. You can also change "
+"site layout with only a single click. Also, this theme comes with retina "
+"ready feature. You can see great details on any devices screen. Woo Commerce "
+"and RTL languages are also supported with our BizNez theme."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:344
+msgid "Try Biznez Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:346
+msgid "Buy Biznez Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:362
+msgid "Analytical Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:365
+msgid ""
+"Analytical is a full width WordPress theme built especially for "
+"photographers and others who want to feature more graphics on their website. "
+"This theme features a full width background slider which is highly "
+"customizable and totally responsive."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:368
+msgid "Try Analytical Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:370
+msgid "Buy Analytical Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:386
+msgid "BizStudio Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:389
+msgid ""
+"Bizstudio is a Simple, Minimal, Responsive, One Click Install, Beautiful and "
+"Elegent WordPress Theme. Along with the elegent design the theme is highly "
+"flexible and customizable with easy to use Admin Panel Options. From a wide "
+"range of options some key options are custom two different layout "
+"option(full width and with sidebar), 5 widget areas, custom follow us and "
+"contact widget, Logo, logo alt text, custom favicon, social links, rss feed "
+"button, custom copyright text and many more. Also it is compitable with "
+"various popular plugins like All in One SEO Pack, WP Super Cache, Contact "
+"Form 7 etc. It is translation ready as well."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:392
+msgid "Try BizStudio Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:394
+msgid "Buy BizStudio Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:410
+msgid "Irex Full Width Portfolio Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:413
+msgid ""
+"Irex is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchThemes.com. Using Irex theme options any one can easily customize "
+"this theme according to their need. You can use your own Logo, logo alt "
+"text, custom favicon, you can add social links, rss feed to homepage, you "
+"can use own copyright text etc. And all this information can be entered "
+"using Irex Theme Options Panel. You have to just set the content from the "
+"Irex  Themes Options Panel and it will be up ready to use."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:416
+msgid "Try Irex Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:418
+msgid "Buy Irex Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:433
+msgid "SketchMini Free Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:436
+msgid ""
+"SketchMini is a Responsive WordPress Theme Free to use with a GPL. "
+"SketchMini has got great features and awesome backend to make use of the "
+"available features in the theme. You dont need to be an expert to use this "
+"SketchMini theme. SketchMini can act as a great base theme to create any "
+"great website."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:439
+msgid "Try Sketchmini Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:456
+msgid "FullScreen - OnePager Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:459
+msgid ""
+"FullScreen is clean, multipurpose and elegant WordPress theme with fully "
+"responsive layout. Theme is suited for all photographers, creative, business "
+"and portfolio websites. Theme includes lots of features like full-screen "
+"slider, modular homepage, layout shortcodes and more. With our advanced "
+"admin panel, tons of customizations are possible and that will help you "
+"redefine your website brand value."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:463
+msgid "Buy FullScreen Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:479
+msgid "Timeliner - Minimal Ultra Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:482
+msgid ""
+"Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, "
+"clean, modern and highly customizable theme. It allows you to create their "
+"website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of "
+"website Timeliner will be a good pick for you. With our advanced admin "
+"panel, tons of customizations are possible and that will help you redefine "
+"your website&#39;s brand value. Also, this theme comes with retina ready "
+"feature. You can see great details on any devices screen."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:486
+msgid "Buy Timeliner Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/ot-loader.php:677
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:620
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:170
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:371
+msgid "Send to OptionTree"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:50
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:51
+msgid " Options"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:56
+msgid " Options updated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:57
+msgid " Options reset."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:58
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:94
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:133
+msgid "Save Changes"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:95
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:96
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:794
+msgid "OptionTree"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:106
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:107
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:149
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:173
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:49
+msgid "Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:112
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:206
+msgid "Theme Options updated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:113
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:207
+msgid "Theme Options reset."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:114
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:208
+msgid "Save Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:119
+msgid "Theme Options UI"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:123
+msgid "Import"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:127
+msgid "Export"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:131
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:161
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:185
+msgid "Layouts"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:137
+msgid "Theme Options UI Builder"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:143
+msgid "Settings XML"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:155
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:179
+#: ../SketchBoard/includes/includes/ot-functions.php:264
+msgid "Theme Options"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:167
+msgid "Settings PHP File"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:191
+msgid "Layout Management"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:200
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:201
+msgid "Documentation"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:213
+msgid "Creating Options"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:217
+msgid "Option Types"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:221
+msgid "Function References"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:225
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:267
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:366
+msgid "Theme Mode"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:229
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:273
+msgid "Meta Boxes"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:233
+msgid "Code Examples"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:237
+msgid "Layouts Overview"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:243
+msgid "Overview of available Theme Option fields."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:249
+msgid "Option types in alphabetical order & hooks to filter them."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:255
+msgid "Function Reference:ot_get_option()"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:261
+msgid "Function Reference:get_option_tree()"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:279
+msgid "Code examples for front-end development."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:285
+msgid "What's a layout anyhow?"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:485
+msgid "The Colorpicker only allows valid hexadecimal values."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:621
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:239
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:2269
+msgid "Remove Media"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:622
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:623
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:624
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:625
+msgid "Are you sure you want to activate this layout?"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:626
+msgid "Sorry, you can't have settings three levels deep."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:627
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:794
+msgid "Delete Gallery"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:628
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:795
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:629
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:802
+msgid "Create Gallery"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:630
+msgid "Are you sure you want to delete this Gallery?"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:631
+msgid "Today"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:632
+msgid "Now"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:633
+msgid "Close"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:822
+#: ../SketchBoard/includes/options/theme-options.php:57
+msgid "General"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:828
+msgid "Sample Text Field Label"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:829
+msgid "Description for the sample text field."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2046
+msgid "Settings updated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2050
+msgid "Settings could not be saved."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2058
+msgid "Settings Imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2062
+msgid "Settings could not be imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2069
+msgid "Data Imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2073
+msgid "Data could not be imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2081
+msgid "Layouts Imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2085
+msgid "Layouts could not be imported."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2093
+msgid "Layouts Updated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2097
+msgid "Layouts could not be updated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2101
+msgid "Layouts have been deleted."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2107
+msgid "Layout activated."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2674
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2679
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2684
+msgid "Full Width (no sidebar)"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2689
+msgid "Dual Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2694
+msgid "Left Dual Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2699
+msgid "Right Dual Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2729
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2790
+msgid "Image"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2740
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2796
+msgid "Link"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2751
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:2802
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:43
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:401
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:451
+msgid "Description"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3285
+msgid "edit"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3286
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3354
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3355
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3517
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3518
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3583
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3584
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3711
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3712
+msgid "Edit"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3288
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3289
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3357
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3358
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3520
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3521
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3586
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3587
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3645
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3646
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3714
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3715
+msgid "Delete"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3295
+msgid ""
+"<strong>Section Title</strong>: Displayed as a menu item on the Theme "
+"Options page."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3303
+msgid ""
+"<strong>Section ID</strong>: A unique lower case alphanumeric string, "
+"underscores allowed."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3364
+msgid ""
+"<strong>Label</strong>: Displayed as the label of a form element on the "
+"Theme Options page."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3372
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3601
+msgid ""
+"<strong>ID</strong>: A unique lower case alphanumeric string, underscores "
+"allowed."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3380
+msgid ""
+"<strong>Type</strong>: Choose one of the available option types from the "
+"dropdown."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3391
+msgid ""
+"<strong>Description</strong>: Enter a detailed description for the users to "
+"read on the Theme Options page, HTML is allowed. This is also where you "
+"enter content for both the Textblock & Textblock Titled option types."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3399
+msgid ""
+"<strong>Choices</strong>: This will only affect the following option types: "
+"Checkbox, Radio, Select & Select Image."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3404
+msgid "Add Choice"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3410
+msgid ""
+"<strong>Settings</strong>: This will only affect the List Item option type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3415
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:93
+msgid "Add Setting"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3421
+msgid ""
+"<strong>Standard</strong>: Setting the standard value for your option only "
+"works for some option types. Read the <code>OptionTree->Documentation</code> "
+"for more information on which ones."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3429
+msgid ""
+"<strong>Rows</strong>: Enter a numeric value for the number of rows in your "
+"textarea. This will only affect the following option types: CSS, Textarea, & "
+"Textarea Simple."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3437
+msgid ""
+"<strong>Post Type</strong>: Add a comma separated list of post type like "
+"'post,page'. This will only affect the following option types: Custom Post "
+"Type Checkbox, & Custom Post Type Select."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3445
+msgid ""
+"<strong>Taxonomy</strong>: Add a comma separated list of any registered "
+"taxonomy like 'category,post_tag'. This will only affect the following "
+"option types: Taxonomy Checkbox, & Taxonomy Select."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3453
+msgid ""
+"<strong>Min, Max, & Step</strong>: Add a comma separated list of options in "
+"the following format <code>0,100,1</code> (slide from <code>0-100</code> in "
+"intervals of <code>1</code>). The three values represent the minimum, "
+"maximum, and step options and will only affect the Numeric Slider option "
+"type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3461
+msgid "<strong>CSS Class</strong>: Add and optional class to this option type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3469
+#, php-format
+msgid ""
+"<strong>Condition</strong>: Add a comma separated list (no spaces) of "
+"conditions in which the field will be visible, leave this setting empty to "
+"always show the field. In these examples, <code>value</code> is a "
+"placeholder for your condition, which can be in the form of %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3477
+msgid ""
+"<strong>Operator</strong>: Choose the logical operator to compute the result "
+"of the conditions."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3480
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:111
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:351
+msgid "and"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3481
+msgid "or"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3527
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:29
+msgid "Label"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3537
+msgid "Value"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3547
+msgid "Image Source (Radio Image only)"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3593
+msgid ""
+"<strong>Title</strong>: Displayed as a contextual help menu item on the "
+"Theme Options page."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3609
+msgid ""
+"<strong>Content</strong>: Enter the HTML content about this contextual help "
+"item displayed on the Theme Option page for end users to read."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3640
+msgid "Layout"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3642
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3643
+msgid "Activate"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3679
+#: ../SketchBoard/includes/includes/ot-settings-api.php:623
+#: ../SketchBoard/includes/includes/ot-meta-box-api.php:202
+msgid "Title"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-admin.php:3878
+msgid "New Layout"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:46
+msgid "Sorry, this function does not exist"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:120
+msgid "background-repeat"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:138
+msgid "background-attachment"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:157
+msgid "background-position"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:210
+msgid "background-size"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:227
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:2257
+msgid "Add Media"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:297
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:351
+msgid "No Categories Found"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:346
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:607
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1159
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1342
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1715
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1830
+msgid "Choose One"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:555
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:613
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1293
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1348
+msgid "No Posts Found"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:874
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1237
+msgid "Add New"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:877
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1240
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1036
+msgid "Off"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1110
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1165
+msgid "No Pages Found"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1577
+msgid "Choose Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1582
+msgid "No Sidebars"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1666
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1720
+msgid "No Tags Found"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1778
+#: ../SketchBoard/includes/includes/ot-functions-option-types.php:1835
+msgid "No Taxonomies Found"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:252
+msgid "To Activate All Features, Please Upgrade to Pro version!"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:253
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:253
+msgid "Setup Instructions"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:254
+msgid "Rate Rational Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:255
+msgid "Test Drive"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:255
+msgid "Theme Test Drive"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-settings-api.php:384
+msgid "Reset Options"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:35
+msgid "Warning!"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:36
+#, php-format
+msgid ""
+"Go to the %s page if you want to save data, this page is for adding settings."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:37
+#, php-format
+msgid ""
+"If you're unsure or not completely positive that you should be editing these "
+"settings, you should read the %s first."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:38
+msgid ""
+"Things could break or be improperly displayed to the end-user if you do one "
+"of the following:"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:39
+msgid ""
+"Give two sections the same ID, give two settings the same ID, give two "
+"contextual help content areas the same ID, don't create any settings, or "
+"have a section at the end of the settings list."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:40
+msgid ""
+"You can create as many settings as your project requires and use them how "
+"you see fit. When you add a setting here, it will be available on the Theme "
+"Options page for use in your theme. To separate your settings into sections, "
+"click the \"Add Section\" button, fill in the input fields, and a new "
+"navigation menu item will be created."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:41
+msgid ""
+"All of the settings can be sorted and rearranged to your liking with Drag & "
+"Drop. Don't worry about the order in which you create your settings, you can "
+"always reorder them."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:92
+msgid "Add Section"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:99
+msgid "Contextual Help"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:103
+msgid "Contextual Help Sidebar"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:103
+msgid ""
+"If you decide to add contextual help to the Theme Option page, enter the "
+"optional \"Sidebar\" HTML here. This would be an extremely useful place to "
+"add links to your themes documentation or support forum. Only after you've "
+"added some content below will this display to the user."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:132
+msgid "Add Contextual Help Content"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:168
+msgid ""
+"This import method has been deprecated. That means it has been replaced by a "
+"new method and is no longer supported, and may be removed from future "
+"versions. All themes that use this import method should be converted to use "
+"its replacement below."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:170
+#, php-format
+msgid ""
+"If you were given a Theme Options XML file with a premium or free theme, "
+"locate it on your hard drive and upload that file by clicking the upload "
+"button. A popup window will appear, upload the XML file and click \"%s\". "
+"The file URL should be in the upload input, if it is click \"Import XML\"."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:173
+msgid "Import XML"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:189
+msgid "Add XML"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:226
+msgid ""
+"To import your Settings copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Settings"
+"\" button."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:229
+msgid "Import Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:271
+msgid ""
+"Only after you've imported the Settings should you try and update your Theme "
+"Options."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:273
+msgid ""
+"To import your Theme Options copy and paste what appears to be a random "
+"string of alpha numeric characters into this textarea and press the \"Import "
+"Theme Options\" button."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:276
+msgid "Import Theme Options"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:318
+msgid ""
+"Only after you've imported the Settings should you try and update your "
+"Layouts."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:320
+msgid ""
+"To import your Layouts copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Layouts\" "
+"button. Keep in mind that when you import your layouts, the active layout's "
+"saved data will write over the current data set for your Theme Options."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:323
+msgid "Import Layouts"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:366
+#, php-format
+msgid ""
+"Export your Settings into a fully functional %s file. If you want to add "
+"your own custom %s text domain to the file, enter it into the text field "
+"before exporting. For more information on how to use this file read the "
+"documentation on %s. Remember, you should always check the file for errors "
+"before including it in your theme."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:375
+msgid "Export Settings File"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:405
+msgid ""
+"Export your Settings by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the "
+"<code>OptionTree->Settings->Import</code> <strong>Settings</strong> textarea "
+"on another web site."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:441
+msgid ""
+"Export your Theme Options data by highlighting this text and doing a copy/"
+"paste into a blank .txt file. Then save the file for importing into another "
+"install of WordPress later. Alternatively, you could just paste it into the "
+"<code>OptionTree->Settings->Import</code> <strong>Theme Options</strong> "
+"textarea on another web site."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:477
+msgid ""
+"Export your Layouts by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the "
+"<code>OptionTree->Settings->Import</code> <strong>Layouts</strong> textarea "
+"on another web site."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:519
+msgid ""
+"To add a new layout enter a unique lower case alphanumeric string (dashes "
+"allowed) in the text field and click \"Save Layouts\"."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:520
+msgid ""
+"As well, you can activate, remove, and drag & drop the order; all situations "
+"require you to click \"Save Layouts\" for the changes to be applied."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:521
+msgid ""
+"When you create a new layout it will become active and any changes made to "
+"the Theme Options will be applied to it. If you switch back to a different "
+"layout immediately after creating a new layout that new layout will have a "
+"snapshot of the current Theme Options data attached to it."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:522
+msgid ""
+"Visit <code>OptionTree->Documentation->Layouts Overview</code> to see a more "
+"in-depth description of what layouts are and how to use them."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-settings-page.php:559
+msgid "Save Layouts"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:30
+msgid ""
+"The Label field should be a short but descriptive block of text 100 "
+"characters or less with no HTML."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:32
+msgid "ID"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:33
+msgid ""
+"The ID field is a unique alphanumeric key used to differentiate each theme "
+"option (underscores are acceptable). Also, the plugin will change all text "
+"you write in this field to lowercase and replace spaces and special "
+"characters with an underscore automatically."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:35
+msgid "Type"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:36
+msgid ""
+"You are required to choose one of the supported option types when creating a "
+"new option. Here is a list of the available option types. For more "
+"information about each type click the <code>Option Types</code> tab to the "
+"left."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:44
+msgid ""
+"Enter a detailed description for the users to read on the Theme Options "
+"page, HTML is allowed. This is also where you enter content for both the "
+"Textblock & Textblock Titled option types."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:46
+msgid "Choices"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:47
+msgid ""
+"Click the \"Add Choice\" button to add an item to the choices array. This "
+"will only affect the following option types: Checkbox, Radio, Select & "
+"Select Image."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:50
+msgid ""
+"Click the \"Add Setting\" button found inside a newly created setting to add "
+"an item to the settings array. This will only affect the List Item type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:52
+msgid "Standard"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:53
+msgid ""
+"Setting the standard value for your option only works for some option types. "
+"Those types are one that have a single string value saved to them and not an "
+"array of values."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:55
+msgid "Rows"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:56
+msgid ""
+"Enter a numeric value for the number of rows in your textarea. This will "
+"only affect the following option types: CSS, Textarea, & Textarea Simple."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:58
+msgid "Post Type"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:59
+msgid ""
+"Add a comma separated list of post type like <code>post,page</code>. This "
+"will only affect the following option types: Custom Post Type Checkbox, & "
+"Custom Post Type Select. Below are the default post types available with "
+"WordPress and that are also compatible with OptionTree. You can also add "
+"your own custom <code>post_type</code>. At this time <code>any</code> does "
+"not seem to return results properly and is something I plan on looking into."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:67
+msgid "Taxonomy"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:68
+msgid ""
+"Add a comma separated list of any registered taxonomy like <code>category,"
+"post_tag</code>. This will only affect the following option types: Taxonomy "
+"Checkbox, & Taxonomy Select."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:70
+msgid "Min, Max, & Step"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:71
+msgid ""
+"Add a comma separated list of options in the following format <code>0,100,1</"
+"code> (slide from <code>0-100</code> in intervals of <code>1</code>). The "
+"three values represent the minimum, maximum, and step options and will only "
+"affect the Numeric Slider option type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:73
+msgid "CSS Class"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:74
+msgid "Add and optional class to any option type."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:76
+msgid "Condition"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:77
+#, php-format
+msgid ""
+"Add a comma separated list (no spaces) of conditions in which the field will "
+"be visible, leave this setting empty to always show the field. In these "
+"examples, %s is a placeholder for your condition, which can be in the form "
+"of %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:79
+msgid "Operator"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:80
+#, php-format
+msgid ""
+"Choose the logical operator to compute the result of the conditions. Your "
+"options are %s and %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:110
+msgid "Background"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:111
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme "
+"either dynamically via the CSS option type below or manually with %s. The "
+"Background option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:113
+msgid "Category Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:114
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows "
+"the user to check multiple category IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:116
+msgid "Category Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:117
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows "
+"the user to select only one category ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:119
+msgid "Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:120
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to "
+"check multiple choices and will return that value as an array for use in a "
+"custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:122
+msgid "Colorpicker"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:123
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. "
+"Use it to modify the color of something in your theme."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:125
+msgid "CSS"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:126
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic "
+"CSS to your theme from within OptionTree. Unfortunately, due server "
+"limitations you will need to create a file named %s at the root level of "
+"your theme and change permissions using %s so the server can write to the "
+"file. I have had the most success setting this single file to %s but feel "
+"free to play around with permissions until everything is working. A good "
+"starting point is %s. When the server can save to the file, CSS will "
+"automatically be updated when you save your Theme Options."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:128
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means "
+"this option will automatically insert the value of %1$s into the %2$s when "
+"the Theme Options are saved."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:130
+msgid "Input"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:136
+msgid "Output"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:144
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:145
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It allows the user to "
+"check multiple post IDs for use in a custom function or loop. Requires at "
+"least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:147
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:148
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It will return a single "
+"post ID for use in a custom function or loop. Requires at least one valid "
+"%1$s in the %1$s field."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:150
+msgid "Date Picker"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:151
+msgid ""
+"The Date Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date when focus "
+"is given to the input field. The returned value is a date formatted string."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:153
+msgid "Date Time Picker"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:154
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field "
+"which displays a calendar pop-up that allow the user to pick any date and "
+"time when focus is given to the input field. The returned value is a date "
+"and time formatted string."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:156
+msgid "Gallery"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:157
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment "
+"IDs. You will need to create a front-end function to display the images in "
+"your theme."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:159
+msgid "List Item"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:160
+msgid ""
+"The List Item option type replaced the Slider option type and allows for a "
+"great deal of customization. You can add settings to the List Item and those "
+"settings will be displayed to the user when they add a new List Item. "
+"Typical use is for creating sliding content or blocks of code for custom "
+"layouts."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:162
+msgid "Measurement"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:163
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text "
+"input excepts a value and the select lets you choose the unit of measurement "
+"to add to that value. Currently the default units are %s, %s, %s, and %s. "
+"However, you can change them with the %s filter."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:165
+#, php-format
+msgid ""
+"Example filter to add new units to the Measurement option type. Added to %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:178
+msgid ""
+"Example filter to completely change the units in the Measurement option "
+"type. Added to <code>functions.php</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:193
+msgid "Numeric Slider"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:194
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a "
+"single numerical value for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:196
+msgid "On/Off"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:197
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn "
+"things on or off. The saved return value is either %s or %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:199
+msgid "Page Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:200
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the "
+"user to check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:202
+msgid "Page Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:203
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a "
+"single page ID for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:205
+msgid "Post Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:206
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the "
+"user to check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:208
+msgid "Post Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:209
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a "
+"single post ID for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:211
+msgid "Radio"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:212
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to "
+"choose one and will return that value as a string for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:214
+msgid "Radio Image"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:215
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can "
+"filter the image list using %s. As well, you can add your own custom images "
+"using the choices array."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:217
+msgid ""
+"This example executes the <code>ot_radio_images</code> filter on layout "
+"images attached to the <code>my_radio_images</code> field. Added to "
+"<code>functions.php</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:241
+msgid "Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:242
+msgid ""
+"The Select option type is used to list anything you want that would be "
+"chosen from a select list."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:244
+msgid "Sidebar Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:245
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress "
+"registered sidebar to use on a specific area. By using the two provided "
+"filters, %s, and %s we can be selective about which sidebars are available "
+"on a specific content area."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:246
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to "
+"change the Blog Sidebar and we don't want to have the footer sidebars "
+"available on this area, we can unset those sidebars either manually or by "
+"using a regular expression if we have a common name like %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:248
+msgid "Slider"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:249
+msgid ""
+"The Slider option type is technically deprecated. Use the List Item option "
+"type instead, as it's infinitely more customizable. Typical use is for "
+"creating sliding image content."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:251
+msgid "Tab"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:252
+msgid ""
+"The Tab option type will break a section or metabox into tabbed content."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:254
+msgid "Tag Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:255
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user "
+"to check multiple tag IDs and will return that value as an array for use in "
+"a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:257
+msgid "Tag Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:258
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to "
+"select only one tag ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:260
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:261
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows "
+"the user to check multiple taxonomy IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:263
+msgid "Taxonomy Select"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:264
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows "
+"the user to select only one taxonomy ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:266
+msgid "Text"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:267
+msgid ""
+"The Text option type is used to save string values. For example, any "
+"optional or required text that is of reasonably short character length."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:269
+msgid "Textarea"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:270
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or "
+"text in the theme and has a WYSIWYG editor that can be filtered to change "
+"the how it is displayed. For example, you can filter %s, %s, %s, and %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:272
+msgid ""
+"Example filters to alter the Textarea option type. Added to <code>functions."
+"php</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:274
+msgid ""
+"This example keeps WordPress from executing the <code>wpautop</code> filter "
+"on the line breaks. The default is <code>true</code> which means it wraps "
+"line breaks with an HTML <code>p</code> tag."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:287
+msgid ""
+"This example keeps WordPress from executing the <code>media_buttons</code> "
+"filter on the textarea WYSIWYG. The default is <code>true</code> which means "
+"show the buttons."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:300
+msgid ""
+"This example keeps WordPress from executing the <code>tinymce</code> filter "
+"on the textarea WYSIWYG. The default is <code>true</code> which means show "
+"the tinymce."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:313
+msgid ""
+"This example alters the <code>quicktags</code> filter on the textarea "
+"WYSIWYG. The default is <code>array( 'buttons' => 'strong,em,link,block,del,"
+"ins,img,ul,ol,li,code,spell,close' )</code> which means show those "
+"quicktags. It also means you can filter in your own custom quicktags."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:328
+msgid "Textarea Simple"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:329
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code "
+"or text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:331
+#, php-format
+msgid ""
+"This example tells WordPress to execute the %s filter on the line breaks. "
+"The default is %s which means it does not wraps line breaks with an HTML %s "
+"tag. Added to %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:344
+msgid "Textblock"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:345
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, but has no title above the text block. "
+"You can then use the Textblock to add a more detailed set of instruction on "
+"how the options are used in your theme. You would never use this in your "
+"themes template files as it does not save a value."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:347
+msgid "Textblock Titled"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:348
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It "
+"will allow you to create & display HTML, and has a title above the text "
+"block. You can then use the Textblock Titled to add a more detailed set of "
+"instruction on how the options are used in your theme. You would never use "
+"this in your themes template files as it does not save a value."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:350
+msgid "Typography"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:351
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme "
+"either dynamically via the CSS option type above or manually with %s. The "
+"Typography option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:353
+msgid ""
+"This example would filter <code>ot_recognized_font_families</code> to build "
+"your own font stack. Added to <code>functions.php</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:370
+msgid "Upload"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:371
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. "
+"After uploading, users are required to press the \"%s\" button in order to "
+"populate the input with the URI of that media. There is one caveat of this "
+"feature. If you import the theme options and have uploaded media on one site "
+"the old URI will not reflect the URI of your new site. You will have to re-"
+"upload or %s any media to your new server and change the URIs if necessary."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:403
+msgid ""
+"This function returns a value from the \"option_tree\" array of saved values "
+"or the default value supplied. The returned value would be mixed. Meaning it "
+"could be a string, integer, boolean, or array."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:405
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:455
+msgid "Usage"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:409
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:459
+msgid "Parameters"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:413
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:417
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:463
+msgid "string"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:413
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:463
+msgid "required"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:413
+msgid "Enter the options unique identifier."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:413
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:463
+msgid "Default:"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:413
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:417
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:463
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:467
+msgid "None"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:417
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:467
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:471
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:475
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:479
+msgid "optional"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:417
+msgid ""
+"Enter a default return value. This is just incase the request returns null."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:417
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:467
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:471
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:475
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:479
+msgid "Default"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:447
+msgid ""
+"This function has been deprecated. That means it has been replaced by a new "
+"function or is no longer supported, and may be removed from future versions. "
+"All code that uses this function should be converted to use its replacement."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:449
+msgid "Use"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:449
+msgid "instead"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:453
+msgid ""
+"This function returns, or echos if asked, a value from the \"option_tree\" "
+"array of saved values."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:463
+msgid "Enter a unique Option Key to get a returned value or array."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:467
+msgid "array"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:467
+msgid "Used to cut down on database queries in template files."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:471
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:475
+msgid "boolean"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:471
+msgid "Echo the output."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:475
+msgid "Used to indicate the $item_id is an array of values."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:479
+msgid "integer"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:479
+msgid ""
+"Numeric offset key for the $item_id array, -1 will return all values (an "
+"array starts at 0)."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:507
+msgid ""
+"If you're using the plugin version of OptionTree it is highly recommended to "
+"include a <code>function_exists</code> check in your code, as described in "
+"the examples below. If you've integrated OptionTree directly into your "
+"themes root directory, you will <strong>not</strong> need to wrap your code "
+"with <code>function_exists</code>, as you're guaranteed to have the "
+"<code>ot_get_option()</code> function available."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:509
+msgid "String Examples"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:511
+msgid "Returns the value of <code>test_input</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:517
+msgid ""
+"Returns the value of <code>test_input</code>, but also has a default value "
+"if it returns empty."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:523
+msgid "Array Examples"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:525
+msgid ""
+"Assigns the value of <code>navigation_ids</code> to the variable <code>$ids</"
+"code>. It then echos an unordered list of links (navigation) using "
+"<code>wp_list_pages()</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:545
+msgid ""
+"The next two examples demonstrate how to use the <strong>Measurement</"
+"strong> option type. The Measurement option type is an array with two key/"
+"value pairs. The first is the value of measurement and the second is the "
+"unit of measurement."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:571
+msgid "This example displays a very basic slider loop."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:616
+msgid "It's Super Simple"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:618
+msgid ""
+"Layouts make your theme awesome! With theme options data that you can save/"
+"import/export you can package themes with different color variations, or "
+"make it easy to do A/B testing on text and so much more. Basically, you save "
+"a snapshot of your data as a layout."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:620
+msgid ""
+"Once you have created all your different layouts, or theme variations, you "
+"can save them to a separate text file for repackaging with your theme. "
+"Alternatively, you could just make different variations for yourself and "
+"change your theme with the click of a button, all without deleting your "
+"previous options data."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:622
+msgid ""
+" Adding a layout is ridiculously easy, follow these steps and you'll be on "
+"your way to having a WordPress super theme."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:624
+msgid "For Developers"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:626
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:655
+msgid "Creating a Layout"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:628
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:635
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:641
+msgid "Go to the <code>OptionTre->Settings->Layouts</code> tab."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:629
+msgid ""
+"Enter a name for your layout in the text field and hit \"Save Layouts\", "
+"you've created your first layout."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:630
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:659
+msgid "Adding a new layout is as easy as repeating the steps above."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:633
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:662
+msgid "Activating a Layout"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:636
+msgid "Click on the activate layout button in the actions list."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:639
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:668
+msgid "Deleting a Layout"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:642
+msgid "Click on the delete layout button in the actions list."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:645
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:673
+msgid "Edit Layout Data"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:647
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:657
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:664
+msgid "Go to the <code>Appearance->Theme Options</code> page."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:648
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:676
+msgid ""
+"Modify and save your theme options and the layout will be updated "
+"automatically."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:649
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:677
+msgid ""
+"Saving theme options data will update the currently active layout, so before "
+"you start saving make sure you want to modify the current layout."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:650
+msgid ""
+"If you want to edit a new layout, first create it then save your theme "
+"options."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:653
+msgid "End-Users Mode"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:658
+msgid ""
+"Enter a name for your layout in the text field and hit \"New Layout\", "
+"you've created your first layout."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:665
+msgid ""
+"Choose a layout from the select list and click the \"Activate Layout\" "
+"button."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:670
+msgid "End-Users mode does not allow deleting layouts."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:675
+msgid "Go to the <code>Appearance->Theme Options</code> tab."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:706
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:788
+msgid "How-to-guide"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:708
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree's "
+"built in Meta Box API. In the code below I'll show you a basic demo of how "
+"to create your very own custom meta box using any number of the option types "
+"you have at your disposal. If you would like to see some demo code, there is "
+"a directory named <code>theme-mode</code> inside the <code>assets</code> "
+"directory that contains a file named <code>demo-meta-boxes.php</code> you "
+"can reference."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:710
+msgid ""
+"It's important to note that Meta Boxes do not support WYSIWYG editors at "
+"this time and if you set one of your options to Textarea it will "
+"automatically revert to a Textarea Simple until a valid solution is found. "
+"WordPress released this statement regarding the wp_editor() function:"
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:712
+msgid ""
+"Once instantiated, the WYSIWYG editor cannot be moved around in the DOM. "
+"What this means in practical terms, is that you cannot put it in meta-boxes "
+"that can be dragged and placed elsewhere on the page."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:714
+msgid "Create and include your custom meta boxes file."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:716
+msgid ""
+"Create a file and name it anything you want, maybe <code>meta-boxes.php</"
+"code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:717
+msgid ""
+"As well, you'll probably want to create a directory named <code>includes</"
+"code> to put your <code>meta-boxes.php</code> into which will help keep you "
+"file structure nice and tidy."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:718
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:818
+msgid "Add the following code to your <code>functions.php</code>."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:728
+msgid ""
+"Add a variation of the following code to your <code>meta-boxes.php</code>. "
+"You'll obviously need to fill it in with all your custom array values. It's "
+"important to note here that we use the <code>admin_init</code> filter "
+"because if you were to call the <code>ot_register_meta_box</code> function "
+"before OptionTree was loaded the sky would fall on your head."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:790
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree as "
+"a theme included module. In the code below I'll show you a basic demo of how "
+"to include the entire plugin as a module, which will allow you to have the "
+"most up-to-date version of OptionTree without ever needing to hack the core "
+"of the plugin. If you would like to see some demo code, there is a directory "
+"named <code>theme-mode</code> inside the <code>assets</code> directory that "
+"contains a file named <code>demo-theme-options.php</code> you can reference."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:792
+msgid "Step 1: Include the plugin & turn on theme mode."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:794
+#, php-format
+msgid "Download the latest version of %s and unarchive the %s directory."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:795
+#, php-format
+msgid ""
+"Put the %s directory in the root of your theme. For example, the server path "
+"would be %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:796
+#, php-format
+msgid "Add the following code to the beginning of your %s."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:810
+#, php-format
+msgid ""
+"For a list of all the OptionTree UI display filters refer to the %s file "
+"found in the %s directory of this plugin. This file is the starting point "
+"for developing themes with Theme Mode."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:812
+msgid ""
+"You now have OptionTree built into your theme and anytime an update is "
+"available replace the old version with the new one."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:814
+msgid "Step 2: Create Theme Options without using the UI Builder."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:816
+msgid ""
+"Create a file and name it anything you want, maybe <code>theme-options.php</"
+"code>, or use the built in file export to create it for you. Remember, you "
+"should always check the file for errors before including it in your theme."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:817
+msgid ""
+"As well, you'll probably want to create a directory named <code>includes</"
+"code> to put your <code>theme-options.php</code> into which will help keep "
+"you file structure nice and tidy."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:828
+msgid ""
+"Add a variation of the following code to your <code>theme-options.php</"
+"code>. You'll obviously need to fill it in with all your custom array values "
+"for contextual help (optional), sections (required), and settings (required)."
+msgstr ""
+
+#: ../SketchBoard/includes/includes/ot-functions-docs-page.php:831
+msgid ""
+"The code below is a boilerplate to get your started. For a full list of the "
+"available option types click the \"Option Types\" tab above. Also a quick "
+"note, you don't need to put OptionTree in theme mode to manually create "
+"options but you will want to hide the docs and settings as each time you "
+"load the admin area the settings be written over with the code below if "
+"they've changed in any way. However, this ensures your settings do not get "
+"tampered with by the end-user."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:58
+msgid "<p>Help content goes here!</p>"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:61
+msgid "<p>Sidebar content goes here!</p>"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:65
+msgid "General Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:69
+msgid "Header Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:73
+msgid "Blog Settings"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:77
+msgid "Home Page Featured Section"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:81
+msgid "Home Landing Page Section"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:85
+msgid "Social Links"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:89
+msgid "Footer Section "
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:100
+msgid "Color Scheme"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:103
+msgid "Set color scheme"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:108
+msgid ""
+"Change Logo (full path to logo image size: width * height (156px * 40px) )"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:111
+msgid "This creates a custom logo for your website."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:117
+msgid "Logo ALT Text"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:118
+msgid "Enter logo image alt attribute text."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:124
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:127
+msgid "This creates a custom favicon for your website."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:140
+msgid "Home page Image"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:143
+msgid "Choose image for home page. Size: Width 1600px and Height 500px."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:156
+msgid "Enter Blog Page Title"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:157
+msgid "Enter Blog Page Title text."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:172
+msgid "First Featured Box Heading"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:173
+msgid "Enter heading for first featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:180
+msgid "First Featured Box Icon Class"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:181
+msgid "Enter First Featured Box Class."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:187
+msgid "First Featured Box Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:190
+msgid "Enter content for first featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:196
+msgid "First Featured Box Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:197
+msgid "Enter link for first featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:205
+msgid "Second Featured Box Heading"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:206
+msgid "Enter heading for second featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:213
+msgid "Second Featured Box Icon Class"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:214
+msgid "Enter Second Featured Box Class."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:220
+msgid "Second Featured Box Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:223
+msgid "Enter content for second featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:229
+msgid "Second Featured Box Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:230
+msgid "Enter link for second featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:237
+msgid "Third Featured Box Heading"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:238
+msgid "Enter heading for third featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:245
+msgid "Featured Third Box Icon Class"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:246
+msgid "Enter Third Featured Box Class."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:252
+msgid "Third Featured Box Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:255
+msgid "Enter content for third featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:261
+msgid "Third Featured Box Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:262
+msgid "Enter link for third featured box."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:278
+msgid ""
+"Home First Section Title </br>(Create a custom link in Menus and put "
+"<b>#section1</b> in URL and Navigation Label according to you for landing "
+"page.))"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:279
+msgid "Enter title for home first section."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:285
+msgid "Home First Section Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:288
+msgid "Enter content for Home First Section"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:299
+msgid ""
+"Home Second Section Title </br>(Create a custom link in Menus and put "
+"<b>#section2</b> in URL and Navigation Label according to you for landing "
+"page.)"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:300
+msgid "Enter title for home second section."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:306
+msgid "Home Second Section Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:309
+msgid "Enter content for home second section"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:321
+msgid ""
+"Home Third Section Title </br>(Create a custom link in Menus and put "
+"<b>#section3</b> in URL and Navigation Label according to you for landing "
+"page.)"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:322
+msgid "Enter title for home third section."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:328
+msgid "Home Third Section Content"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:331
+msgid "Enter content for home third section"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:344
+msgid "Facebook Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:347
+msgid "Enter Facebook Link."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:352
+msgid "Twitter Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:355
+msgid "Enter Twitter link."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:360
+msgid "Pinterest Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:363
+msgid "Enter Pinterest link."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:368
+msgid "Dribbble Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:371
+msgid "Enter Dribbble link."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:376
+msgid "Tumblr Link"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:379
+msgid "Enter Tumblr link."
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:390
+msgid "Copyright Text"
+msgstr ""
+
+#: ../SketchBoard/includes/options/theme-options.php:393
+msgid "You can use HTML for links etc.."
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-functions.php:42
+msgid "Author: "
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:23
+msgid "Home"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:153
+msgid "Author"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:161
+msgid "Tag"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:173
+msgid "Error 404"
+msgstr ""

@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Philomina\n"
+"POT-Creation-Date: 2016-03-03 13:32+0000\n"
+"PO-Revision-Date: 2016-03-03 13:38+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: footer.php:4
+msgid "All rights reserved"
+msgstr "Tutti i diritti riservati"
+
+#: footer.php:22
+msgid "Close"
+msgstr "Chiudi"
+
+#: functions.php:35
+msgid "Main Menu"
+msgstr "Menù Principale"
+
+#: functions.php:40
+msgid "WordPress Theme designed by Wastronauts"
+msgstr "Tema WordPress progettato da Wastronauts"
+
+#: functions.php:55
+msgid "Post Sidebar"
+msgstr "Sidecar Post"
+
+#: functions.php:57
+msgid "Sidebar located on the right side of your articles"
+msgstr "Barra laterale che si trova sul lato destro dei tuoi articoli"
+
+#: functions.php:78
+msgid "Your comment is awaiting moderation."
+msgstr "il tuo commento è in attesa di approvazione"
+
+#: header.php:28
+msgid "Menu"
+msgstr "Menù"
+
+#: loop.php:10 loop.php:14
+msgid "Page"
+msgstr "Pagina"
+
+#: loop.php:17
+msgid "Search Results for: "
+msgstr "Risultati di ricerca per:"
+
+#: loop.php:19
+msgid "Articles by: "
+msgstr "Articoli di:"
+
+#: loop.php:21
+msgid "Articles in: "
+msgstr "Articoli in:"
+
+#: loop.php:34
+msgid "Continue"
+msgstr "﻿Continua"
+
+#: loop.php:48
+msgid "No Post Found in this page."
+msgstr "Nessun Post trovato in questa pagina."
+
+#: loop.php:49
+msgid "For more information please contact the website administrator."
+msgstr ""
+"Per ulteriori informazioni si prega di contattare l’amministratore del sito."
+
+#: loop.php:51
+msgid "Return to to"
+msgstr "Torna a"
+
+#: loop.php:51
+msgid "Home Page"
+msgstr "Pagina Home"
+
+#: loop.php:66
+msgid "Back"
+msgstr "Torna indietro"
+
+#: loop.php:67
+msgid "More"
+msgstr "Scopri"
+
+#: searchform.php:3
+msgid "Search..."
+msgstr "Ricerca…"
+
+#: searchform.php:4
+msgid "Go"
+msgstr "Vai"
+
+#: single.php:13
+msgid "Read Comments"
+msgstr "Leggi i commenti"
+
+#: single.php:18
+msgid "By"
+msgstr "Da"
+
+#: single.php:35
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: single.php:36
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: single.php:43
+msgid "Tags"
+msgstr "Tags"
+
+#: single.php:45
+msgid "Categories"
+msgstr "Categorie"
+
+#. Theme Name of the plugin/theme
+msgid "Philomina"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/charlieasemota/philomina-wp"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Philomina is a clean and minimalistic theme perfect for fashion blogs or "
+"websites that make a huge use of quality photographs. Its accessible on all "
+"screen sizes, and it's optimised to support multiple translations. We added "
+"some nice load and unload effects throughout the site and added a lightbox "
+"feature for the images. We've limited customisation at this time but we "
+"welcome any suggestions and if reasonable we will include it in the next "
+"update. For more information about Philomina or for support please go to "
+"https://github.com/charlieasemota/philomina-wp."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wastronauts Ltd"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wastronauts.com/"
+msgstr ""

@@ -1,0 +1,160 @@
+/*
+Theme Name: Purple Play Lite
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {direction: rtl;unicode-bidi: embed;}
+caption,th,td {	text-align: right;}
+
+/* =header
+-------------------------------------------------------------- */
+#top-head .left-section {float: right;}
+#top-head .right-section {float: left;}
+
+/* =navigation
+-------------------------------------------------------------- */
+#skenav{float: left;}
+#menu-main{ float: left !important;}
+.menu ul li{float: right;}
+.menu ul li ul{ left: 0;}
+#floating_logo {float: right;margin-right: 8px;padding: 0;}
+.fixed-menu #menu-container {float: left !important; margin-left: 8px; padding-right: 4px; }
+.menu ul li a {  padding-left: 22px !important;  padding-right: 0 !important;}
+.downarrowclass{left: 11px;right:auto;}
+
+/* =page and post
+-------------------------------------------------------------- */
+.page-title{float: right;}
+.skt-breadcrumb {   float: left;text-align: left; }
+.slider-attach{margin-bottom: 25px;}
+#respond input,#respond textarea{  width: 97%;}
+.searchform input[type="text"]{padding:1px 7px 0 0;}
+.searchform input[type="submit"]{left: 13px;right: auto;}
+.readmore {float: left;}
+.skt-quote {background: url("images/quote-rotate.png") no-repeat scroll right top #D1CFCF; padding: 8px 30px 8px 5px !important;}
+#content .commentlist .avatar{right: 0;left:auto;}
+.comment a { float: right;}
+
+/* =Front page
+-------------------------------------------------------------- */
+.box-title{right:16px;text-align:right;}
+.box-text{text-align:right;}
+.readmorebtn a{float:right;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;  -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+.readmorebtn a:before{content:"\f104";float: right;left: 4px;top: 2px;}
+.readmorebtn a:hover{padding-right:10px;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;  -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+
+
+.callto-action{float:right;}
+
+/* =sidebar
+---------------------------------------*/
+.widget-container li:before{float:right;content:"\f104";}
+.widget-container li a{padding-right:12px;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;  -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+.widget-container li a:hover{padding-right:18px;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;  -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer .widget-container > ul{margin-left:40px;margin-right:0px;}
+#foot-sidebar .widget-container ul li{margin-right:0px;margin-left:8px;}
+#footer .widget-container.flickrimg > ul{margin-left:0px;margin-right:0px;}
+#footer .widget-container.flickrimg ul li{margin-left:6px;margin-right:0px;}
+#footer .widget-container.sktmultisocialstream ul li{margin-left:6px;margin-right:0px;}
+#site-info{float:right;}
+#foot-sidebar .widget-container .skt-portfolio-widget li { margin: 2px 3px;}
+#footer-area .bottom_wrapper .owner{float:left;text-align:left;}
+
+/* =404 page
+-------------------------------------------------------------- */
+.error-search .searchform{float: right;}
+.error404 #content .searchform input[type="submit"]{ left: 5px;}
+
+/* =Meta
+-------------------------------------------------------------- */
+.entry-meta{padding:0px;}
+.author-name:after {    color: #898989;     content: "\f007";     font-family: 'FontAwesome';     font-size: 16px;     margin-left: 8px;}
+.date-time:after {color: #898989; content: "\f073";font-family: 'FontAwesome'; font-size: 16px; margin-left: 8px; }
+.comment:after {color: #898989; content: "\f075"; font-family: 'FontAwesome'; font-size: 16px; margin-left: 10px; }
+.author-name:before ,.date-time:before ,.comment:before {content:"";}
+.author-name,.date-time,.comment{display:inline-block;}
+.author-name{ bottom: -2px;padding-left: 21px; padding-right: 0; position: relative; }
+.date-time{margin-right: 0px;position: relative;bottom: -2px;padding-right: 0px;}
+.skt-dt{float:left;}
+.comment{position: relative; bottom: -2px;}
+.comment a {float: left;}
+.nav-previous {float: right;}
+.nav-next {float: left;text-align: left;}
+.commentlist li.comment{padding:0 56px 0 0;}
+.commentlist .comment-body {  float: right; }
+.commentlist .comment-body {    float: right;}
+
+dt,dd { float: right;}
+
+
+
+
+/* =Media Query
+-------------------------------------------------------------- */
+
+/****************max-width: 960px**************/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	.font-icon-first, .font-icon-second, .font-icon-third, .font-icon-fourth { float: right; left: -52px;  position: relative;}
+	.box-img { margin-bottom: 10px;  margin-top: 10px;  padding: 0;}
+	.box-title { right: auto;text-align: center;}
+	.one_half, .one_third, .two_third, .one_fourth, .three_fourth{margin-right:0px;}
+	.box-text { text-align: center;}
+	.box-title{ left: auto; width: 100%;}
+	.readmorebtn {  margin-left: 0;  text-align: center;}
+	.readmorebtn a {  float: none;}
+	.readmorebtn a:before {  left: -108px;top:1px;}
+	.front-icon-wrap span{margin-left:0px;}
+
+
+	.link-post { left: 34%;}
+	.zoom-img { right: 32%;}
+
+}
+
+
+
+/****************max-width: 767px**************/
+@media only screen and (max-width: 767px) {
+    .author-name, .date-time, .comment{float: none;}
+	.date-time{padding-bottom:0px; padding-right: 8px;}
+	.comment{margin-right:0px;margin-top:0px;}
+     #footer-area .bottom_wrapper .owner{text-align: center; }
+}
+
+/****************max-width: 480px**************/
+@media only screen and (max-width: 480px) {
+
+	#top-head .right-section{margin-top:0px;}
+	.box-img { padding: 0 58px 0 0;text-align: center;}
+	.box-title {  right: 0; text-align: right;}
+	.box-text {  text-align: center;}
+
+	.readmorebtn {  margin-left: 0;  text-align: center;}
+	.readmorebtn a {  float: none;}
+	.readmorebtn a:before {  left: -102px;}
+	.front_clients h2 span.titleimg{ padding-left: 10px;}
+	
+	
+	.skt-breadcrumb {float: none;text-align: center;}
+	.team-container { margin-left: 5px;}
+	
+	.author-name, .date-time, .comment{float: none;}
+	.date-time{padding-bottom:0px; padding-right: 8px;}
+	.comment{margin-right:0px;margin-top:0px;}
+	
+	
+	#site-info {float: left;}
+	#footer-area .bottom_wrapper .owner{text-align: center;}
+	
+
+	#sider-bar{padding-right:0px; float: left;margin:0px;}
+	
+}

@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 300
+}
+blockquote, q {
+  border-left: 5px solid #ccc;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+iframe {
+  max-width: 100%;
+  max-height: 450px;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid #666;
+}
+table td, table th {
+  border: 1px solid #666;
+  padding: 5px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.wp-caption {
+  background: #fff;
+  border: 1px solid #ccc;
+  max-width: 96%;
+  padding: 5px 3px 0;
+  text-align: center;
+}
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+.wp-caption p.wp-caption-text, .gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #d8304c;
+  border-bottom: 1px dotted #d8304c;
+}
