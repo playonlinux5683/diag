@@ -6,7 +6,9 @@
 	
 	$business_elite_meta_data = get_post_meta($post->ID,WDWT_META,TRUE); 
 	$lbox_width = $wdwt_front->get_param('lbox_image_width');
-	$lbox_height = $wdwt_front->get_param('lbox_image_height');  ?>
+	$lbox_height = $wdwt_front->get_param('lbox_image_height');
+	$lbox_disable = $wdwt_front->get_param('lbox_disable');
+	$show_featured_image = $wdwt_front->get_param('show_featured_image', $business_elite_meta_data, true);  ?>
 </header>
 
 	<!--TOP_TITLE-->
@@ -40,13 +42,15 @@
 					else  $post_class=""; 
 					
 					$url = wp_get_attachment_url( get_post_thumbnail_id() );
-					if ( has_post_thumbnail() && $url ) { ?>
+					if ( has_post_thumbnail() && $url  && $show_featured_image ) { ?>
 						<div class="post-thumbnail-div">
 							<h2 rel="post-thumbnail-div-<?php echo $id; ?>-title"  style="display:none;" ><?php the_title(); ?></h2>
 							<div class="post-thumbnail" style="background-image:url(<?php echo $url;?>); background-size:cover; border:1px solid #f4f4f4; position:relative;"> 
-								<a href="<?php echo $url; ?>" class=" " onclick="wdwt_lbox.init(this, 'wdwt-lightbox', <?php echo intval($lbox_width);?> , <?php echo intval($lbox_height);?>); return false;" rel="wdwt-lightbox" id="post-thumbnail-div-<?php echo $id; ?>">
-									<div class="eye_single" id="eye_bg"></div>
-								</a>
+							  <?php if(!$lbox_disable){ ?>
+									<a href="<?php echo $url; ?>" class=" " onclick="wdwt_lbox.init(this, 'wdwt-lightbox', <?php echo intval($lbox_width);?> , <?php echo intval($lbox_height);?>); return false;" rel="wdwt-lightbox" id="post-thumbnail-div-<?php echo $id; ?>">
+										<div class="eye_single" id="eye_bg"></div>
+									</a>
+								<?php } ?>
 							</div>
 						</div> 
 					<?php } ?>

@@ -3,8 +3,9 @@ class WDWT_meta_controller_section{
   protected $model;
   protected $view;
 
-  public function view() {
-    $this->view->view();
+  public function view($meta)
+  {
+     $this->view->view($meta);
   }
 
   public function save($post_id) {

@@ -214,6 +214,7 @@ class WDWT_homepage_page_class{
 				'type' => 'checkbox_open', 
 				"description" => __("Check the box to display the portfolio on the homepage", "business-elite"), 
 				'show' => array(
+					'portfolio_posts_lightbox',
 					'portfolio_title', 
 					'portfolio_description', 
 					'portfolio_categories', 
@@ -223,6 +224,20 @@ class WDWT_homepage_page_class{
 				'section' => 'homepage_portfolio',
 				'tab' => 'homepage', 
 				'default' => true,
+				'customizer'=>array()
+			),
+			'portfolio_posts_lightbox' => array(
+				"name" => "portfolio_posts_lightbox", 
+				"title" => __("Lightbox", "business-elite"),
+				'type' => 'radio', 
+				'valid_options' => array(
+					'lightbox' => __('Lightbox', "business-elite"),
+					'link' => __('Link', "business-elite"),
+				),
+				"description" => __("Show lightbox or link to post", "business-elite"),
+				'section' => 'homepage_portfolio',
+				'tab' => 'homepage', 
+				'default' => 'lightbox',
 				'customizer'=>array()
 			),
 			'portfolio_title' => array( 

@@ -368,6 +368,7 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 	}	
 /*----- BLOG ------*/
 	public static function content_posts($paged = null) {
+		
 		if(!isset($paged)){
 			global $paged;
 		}
@@ -378,6 +379,7 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 
 		$content_posts_enable = $wdwt_front->get_param('content_posts_enable');
 		$content_posts_title = $wdwt_front->get_param('content_posts_title');
+		$lbox_disable = $wdwt_front->get_param('lbox_disable');
 		$content_posts_description = stripslashes( $wdwt_front->get_param('content_posts_description'));		
 		$content_posts_categories = implode(",", $wdwt_front->get_param('content_posts_categories'));
 		$lbox_width = $wdwt_front->get_param('lbox_image_width');
@@ -424,7 +426,7 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 								<div class="content-post post_image slide-in-right">
 									<!--IMAGE-->
 									<div class="div_image" style="background: url(<?php echo $background_image; ?>) no-repeat center !important; background-size:cover !important;">
-										<?php if(($has_image)){ ?>
+										<?php if(($has_image) && !$lbox_disable){ ?>
 											<a href="<?php echo $thumb_url; ?>" class=" " onclick="wdwt_lbox.init(this, 'wdwt-lightbox', <?php echo intval($lbox_width);?> , <?php echo intval($lbox_height);?>); return false;" rel="wdwt-lightbox" id="content-post-<?php echo $id; ?>">
 												<div class="eye_blog" id="eye_bg"> </div>
 											</a>
@@ -466,14 +468,16 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 			</div>
 			<?php 
 			if($content_posts_enable){ 
-  			if($paged >1){ ?>
-					<span class="content_posts_home_pagination" id="content_posts_home_left" onclick="wdwt_front_ajax_pagination(<?php echo $paged-1; ?>, 'content_posts', '#blog_home_out');" ><i class="fa fa-chevron-left"></i><?php esc_html_e('Previous', "business-elite"); ?> </span>
-				<?php
-				}
-				if($paged < $wp_query->max_num_pages){ ?>
-					<span class="content_posts_home_pagination" id="content_posts_home_right" onclick="wdwt_front_ajax_pagination(<?php echo $paged+1; ?>, 'content_posts', '#blog_home_out');"><?php esc_html_e('Next', "business-elite"); ?> <i class="fa fa-chevron-right"></i></span>
-				<?php
-				} 
+					
+						if($paged >1){ ?>
+							<span class="content_posts_home_pagination" id="content_posts_home_left" onclick="wdwt_front_ajax_pagination(<?php echo $paged-1; ?>, 'content_posts', '#blog_home_out');" ><i class="fa fa-chevron-left"></i><?php esc_html_e('Previous', "business-elite"); ?> </span>
+						<?php
+							}
+						if($paged < $wp_query->max_num_pages){ ?>
+							<span class="content_posts_home_pagination" id="content_posts_home_right" onclick="wdwt_front_ajax_pagination(<?php echo $paged+1; ?>, 'content_posts', '#blog_home_out');"><?php esc_html_e('Next', "business-elite"); ?> <i class="fa fa-chevron-right"></i></span>
+						<?php
+						}
+					
 			} 
 			?>
 			<div class="clear"></div>
@@ -487,6 +491,8 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		
 		$portfolio_posts_enable = $wdwt_front->get_param('portfolio_posts_enable');
 		$portfolio_title = $wdwt_front->get_param('portfolio_title');
+		$portfolio_posts_lightbox = $wdwt_front->get_param('portfolio_posts_lightbox', array(), 'lightbox');
+		$lbox_disable = $wdwt_front->get_param('lbox_disable');
 		$portfolio_description = stripslashes( $wdwt_front->get_param('portfolio_description'));
 		$portfolio_categories = implode(",", $wdwt_front->get_param('portfolio_categories')) ;
 		$grab_image = $wdwt_front->get_param('grab_image');
@@ -534,14 +540,20 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 									<div class="overlay_port"></div>
 									<p rel="port_rel-<?php echo $id; ?>-title" style="display:none;"> <?php the_title(); ?> </p>
 									<?php 
-									if(($has_image)){ ?>
+									if(($has_image) && $portfolio_posts_lightbox == "lightbox" && !$lbox_disable){ ?>
 										<div>
 										<a href="<?php echo $thumb_url; ?>" class=" " onclick="wdwt_lbox.init(this, 'wdwt-lightbox', <?php echo intval($lbox_width);?> , <?php echo intval($lbox_height);?>); return false;" rel="wdwt-lightbox" id="port_rel-<?php echo $id; ?>">
 											<div class="eye_port" id="eye_bg"></div>
 										</a>
 										</div>
+									<?php }
+									if($portfolio_posts_lightbox == 'link'){ ?>
+										<div>
+										<a href="<?php echo get_permalink(); ?>" class=" ">
+											<div class="link_post" id="link_post"></div>
+										</a>
+										</div>
 									<?php } ?> 
-									<a href="<?php echo get_permalink() ?>"></a>
 								</li>
 							<?php 
 							$id++;
@@ -590,14 +602,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		$instagram_url = $wdwt_front->get_param('instagram_url'); ?>
 		
 		<?php if( $twitter_enable=='on' && $twitter_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">
 				<div id="social_home" <?php if( $twitter_enable=='' || $twitter_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a href="<?php if( trim($twitter_url) ){ echo esc_url($twitter_url);} else { echo "javascript:;";}?>" target="_blank" title="Twitter" class="round">
-						<div class="front twitter_home" id="front"></div>
-					</a>
-					<a href="<?php if( trim($twitter_url) ){ echo esc_url($twitter_url);} else { echo "javascript:;";}?>" target="_blank" title="Twitter" class="round">
-						<div class="back twitter_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front twitter_home" id="front"><i class="fa fa-twitter"></i></div>
 					</a>
 				</div>
 			</div>
@@ -605,14 +614,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<?php } ?>				
 		<!--2-->
 		<?php if( $facebook_enable=='on' && $facebook_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">	
 				<div id="social_home" <?php if( $facebook_enable=='' || $facebook_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Facebook">	
-						<div class="front facebook_home" id="front"></div>
-					</a>
-					<a href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Facebook" >
-						<div class="back facebook_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front facebook_home" id="front"><i class="fa fa-facebook"></i></div>
 					</a>
 				</div>
 			</div>
@@ -620,14 +626,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<?php } ?>
 		<!--3-->
 		<?php if( $rss_enable=='on' && $rss_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">	
 				<div id="social_home" <?php if( $rss_enable=='' || $rss_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Rss">
-						<div class="front rss_home" id="front"></div>
-					</a>
-					<a href="<?php if( trim($rss_url) ){ echo esc_url($rss_url);} else { echo "javascript:;";}?>" target="_blank" title="Rss" >
-						<div class="back rss_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front rss_home" id="front"><i class="fa fa-rss"></i></div>
 					</a>
 				</div>
 			</div>
@@ -635,14 +638,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<?php } ?>
 		<!--4-->
 		<?php if( $youtube_enable=='on' && $youtube_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">	
 				<div id="social_home" <?php if( $youtube_enable=='' || $youtube_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a  href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Youtube">
-						<div class="front youtube_home" id="front"></div>
-					</a>
-					<a  href="<?php if( trim($youtube_url) ){ echo esc_url($youtube_url);} else { echo "javascript:;";}?>" target="_blank" title="Youtube" >
-						<div class="back youtube_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front youtube_home" id="front"><i class="fa fa-youtube"></i></div>
 					</a>
 				</div>
 			</div>
@@ -650,14 +650,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<?php } ?>
 		<!--5-->
 		<?php if( $googlep_enable=='on' && $googlep_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">	
 				<div id="social_home" <?php if( $googlep_enable=='' || $googlep_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a  href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Google+">
-						<div class="front googlep_home" id="front"></div>
-					</a>
-					<a  href="<?php if( trim($googlep_url) ){ echo esc_url($googlep_url);} else { echo "javascript:;";}?>" target="_blank" title="Google+" >
-						<div class="back googlep_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front google-plus_home" id="front"><i class="fa fa-google-plus"></i></div>
 					</a>
 				</div>
 			</div>
@@ -665,14 +662,11 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<?php } ?>
 		<!--6-->
 		<?php if( $instagram_enable=='on' && $instagram_url != "" ){ ?>
-		<div class="flip-container" id="flip-container">
+		<div class="flip-container-soc" id="flip-container">
 			<div class="flipper">	
 				<div id="social_home" <?php if( $instagram_enable=='' || $instagram_enable == ""){ echo "style=\"display:none;\""; } ?>>
 					<a  href="<?php if( trim($facebook_url) ){ echo esc_url($facebook_url);} else { echo "javascript:;";}?>" target="_blank" title="Instagram">
-						<div class="front instagram_home" id="front"></div>
-					</a>
-					<a  href="<?php if( trim($instagram_url) ){ echo esc_url($instagram_url);} else { echo "javascript:;";}?>" target="_blank" title="Instagram" >
-						<div class="back instagram_home_back" id="back_glob"><div id="back"></div></div>
+						<div class="front instagram_home" id="front"><i class="fa fa-instagram"></i></div>
 					</a>
 				</div>
 			</div>
@@ -681,8 +675,6 @@ class Business_elite_frontend_functions extends WDWT_frontend_functions {
 		<div class="clear"></div>
 	<?php	
 	}
-
-
 
 
 /*---- CONTACT US -----*/	

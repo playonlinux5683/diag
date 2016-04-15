@@ -48,4 +48,14 @@ class WDWT_meta_model{
 		}
 		return $default;
 	}
+
+
+	protected function post_type_check(){
+    $screen = get_current_screen();
+    if($screen->post_type == 'page')
+      return 'page';
+    else
+      return 'post';
+ 
+  }
 }

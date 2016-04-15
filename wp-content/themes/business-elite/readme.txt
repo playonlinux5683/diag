@@ -14,6 +14,16 @@ https://web-dorado.com/wordpress-themes-guide-step-1.html
 
 == Changelog ==
 
+=1.1.8=
+new: option to disable lightbox
+new: meta setting to show/hide featured images in single page/post views
+new: featured images in custom page templates (PRO)
+new: option to choose whether to show lightbox or link in portfolio posts section
+fixed: submenues positioning
+fixed: security issue
+change: social icons font-awesome
+change: post meta optimized (PRO)
+
 =1.1.7=
 new: WooCommerce compatibility
 

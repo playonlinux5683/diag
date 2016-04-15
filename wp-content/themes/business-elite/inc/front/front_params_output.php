@@ -527,7 +527,7 @@ body.custom-background {background-color:#<?php echo get_background_color(); ?>;
 .half-block.sitemap a:hover{color: <?php echo $primary_links_hover_color; ?> !important;}
 
 /*--- ZOOM EYE ---*/
-.circle:hover,.eye_port:hover,.eye_blog:hover,.eye_our:hover{
+.circle:hover,.eye_port:hover,.eye_blog:hover,.eye_our:hover,.link_post:hover{
 	background-color: <?php echo $buttons_color; ?> !important;
 }
 .sticky_post { border: 5px double <?php echo $text_headers_color; ?>; }

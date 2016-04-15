@@ -14,18 +14,18 @@ wdwt_lbox = {
     if(link_obj === links.get(index)){
        cur = index;
     }
-	  id= jQuery(this).prop('id');
+    id= jQuery(this).prop('id');
       href = links.eq(index).prop('href');
       
-	  title = links.eq(index).parent().parent().find("[rel='"+id+"-title']").eq(0).html();
-	  if(typeof title == 'undefined'){
-		title ='';
-	  }
+    title = links.eq(index).parent().parent().find("[rel='"+id+"-title']").eq(0).html();
+    if(typeof title == 'undefined'){
+    title ='';
+    }
       descr = links.eq(index).parent().parent().find("[rel='"+id+"-desc']").eq(0).html();
-	  if(typeof descr == 'undefined'){
-		descr ='';
-	  }
-	  
+    if(typeof descr == 'undefined'){
+    descr ='';
+    }
+    
       imgs.push(href);
       titles.push(title);
       descrs.push(descr);
@@ -129,7 +129,7 @@ wdwt_lbox = {
         jQuery(".spider_popup_loading").remove();
         jQuery(".spider_popup_overlay").remove();
         jQuery(document).off("keydown");
-        jQuery("html").attr("style", "overflow:auto !important");
+        jQuery("html").attr("style", "");
         jQuery(window).trigger('resize');//for resizing thumbs after lightbox closing
       }, 20);
     }

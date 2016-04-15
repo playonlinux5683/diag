@@ -4,7 +4,8 @@
 
 	$business_elite_meta_data = get_post_meta($post->ID, WDWT_META, TRUE); 
 	$blog_style = $wdwt_front->blog_style();
-	$grab_image = $wdwt_front->get_param('grab_image'); ?>
+	$grab_image = $wdwt_front->get_param('grab_image');
+	$show_featured_image = $wdwt_front->get_param('show_featured_image', $business_elite_meta_data, false);	?>
 
 </header>
 	
@@ -31,7 +32,7 @@
 				<div class="single-post" style="padding:2%;">
 					<!--image-->
 					<?php
-					if (!$wdwt_front->get_param('hidethumbs', $business_elite_meta_data, false)){ 
+					if ( $show_featured_image){ 
 					  if(has_post_thumbnail()){ ?>
 						<div class="img_container fixed size400x250">
 							<?php echo Business_elite_frontend_functions::fixed_thumbnail(400,250, false); ?>

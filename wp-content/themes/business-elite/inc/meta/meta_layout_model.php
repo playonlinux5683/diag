@@ -66,6 +66,14 @@ class Business_elite_meta_layout_model extends WDWT_meta_model{
 				'input_size' => '2',
 				'default' => $this->get_param('pwa_width'),
 			),
+			
+  		'show_featured_image' => array(
+    		'name' => 'show_featured_image',
+    		'title' => __( 'Featured Image', "business-elite" ),
+    		'type' => 'checkbox',
+    		'description' => __( 'Show Featured Image in single page/post view', "business-elite" ),
+    		'default' => $this->post_type_check() == 'page' ? false : true ,
+  		),
 		);
 	}
 }

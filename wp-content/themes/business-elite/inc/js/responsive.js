@@ -114,7 +114,7 @@ jQuery('document').ready(function(){
 		sliderSize(sHeight);	
 		wdwt_resize_iframes();
 		if(window_cur_size == 'phone'){
-			jQuery("#header-top .container").append(jQuery("#social"));
+			/*jQuery("#header-top .container").append(jQuery("#social"));*/
 			jQuery("#header-middle").prepend(jQuery("#logo"));
 			jQuery("#header .phone-menu-block").removeClass("container");
 			jQuery("#header .phone-menu-block").css("width", '');
@@ -168,7 +168,7 @@ jQuery('document').ready(function(){
 			jQuery("#top-nav").css({"display":"block"});
 			jQuery("#header .phone-menu-block").removeClass("container");
 			jQuery("#header .phone-menu-block").css("width", '');
-			jQuery("#header-top .container").append(jQuery("#social"));
+			/*jQuery("#header-top .container").append(jQuery("#social"));*/
 			jQuery("#header-middle").prepend(jQuery("#logo"));
 			jQuery("aside .sidebar-container .widget-area").removeClass("clear");
 			jQuery(".top-posts-block").width("100%");
@@ -248,11 +248,9 @@ jQuery('document').ready(function(){
 			
 		});
 		if(window_cur_size != 'phone'){
-			if(jQuery("#footer div.phone").length)
-				jQuery("#footer div.phone").append(jQuery("#social"));
-			else {
-				jQuery("#footer > div").prepend("<div class='footer-sidbar added_not_exsisted_footer_sidbar'><div id='sidebar-footer' class='added_not_exsisted_footer phone container footer-sidbar'></div></div>")
-				jQuery("#footer div.phone").append(jQuery("#social"));
+			if(!jQuery("#footer div.phone").length) {
+				jQuery("#footer > div").prepend("<div class='footer-sidbar added_not_exsisted_footer_sidbar'><div id='sidebar-footer' class='added_not_exsisted_footer phone container footer-sidbar'></div></div>");
+			/*	jQuery("#footer div.phone").append(jQuery("#social"));*/
 					if(jQuery('body').width()>320 && jQuery('body').width()<640){
 						width="100%";
 					}else if(jQuery('body').width()<=320){width="100%";}else{width="640px";}

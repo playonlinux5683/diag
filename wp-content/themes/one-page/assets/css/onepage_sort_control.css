@@ -1,0 +1,12 @@
+ul.ink-multicheck-sortable-list .ink-multicheck-sortable-handle{
+    float: right;
+    cursor: move;
+}
+ul.ink-multicheck-sortable-list li{
+    padding: 7px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+}
+.ink-hideme{
+    display: none !important;
+}

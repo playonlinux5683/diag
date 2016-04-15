@@ -7,7 +7,7 @@ Text Domain: business-elite
 Description: Business Elite is a fully responsive, SEO-friendly WordPress business theme with clean design to promote your corporate identity and engage more clients. It’s a one page theme using page scroll and parallax technology to make the site more professional. Sticky menu will further lead to easier navigation. This WordPress business theme is compatible with most of the top WordPress plugins, including JetPack, Contact Form 7/ Form Maker, Photo Gallery, BuddyPress, bbPress, Woocommerce etc. It is multilingual ready (WPML) and child theme ready. To showcase your works or corporate images/offers you can use full width slider or use full screen lightbox slideshow. Do you have website visitors who use mobile devices? Business elite theme has cross-browser compatibility, plus mobile friendly and retina-ready and overall responsive appearance. The theme allows making layout changes using layout editor and front page builder. Since Business Elite has large number of customizable features, social sharing options and functionality enhancing possibilities, it can be used for various types of websites: commercial company and ecommerce websites, non-profit organizations, personal and portfolio websites and photography or serve as blog theme for such fields as restaurant industry, healthcare, construction, education, sports, services etc. Demo URL: http://themedemo.web-dorado.com/?theme=business-elite
 Business Elite Theme, Copyright 2015 web-dorado.com
 Business Elite is distributed under the terms of the GNU GPL
-Version: 1.1.7
+Version: 1.1.8
 Tags: black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, white, yellow, dark, light, custom-menu, custom-header, custom-background, featured-images, custom-colors, flexible-header, full-width-template, one-column, two-columns, three-columns, right-sidebar, theme-options, threaded-comments, fluid-layout, responsive-layout, translation-ready
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -144,7 +144,7 @@ h4{font-size: 20px;}
 
 h5{font-size: 18px;}
 
-h6{font-size: 14px;}
+h6{font-size: 16px;}
 
 h1, h2, h3, h4, h5, h6, form, p, ul, ol, dl {margin:0px; padding:0px;}
 
@@ -225,7 +225,7 @@ object {outline:none;}
 }
 
 .before_blog_2 h2{
-  font-size: 48px !important;
+  font-size: 38px !important;
   color: #ffffff !important;
   margin: 0 auto;
   padding: 4%;
@@ -534,7 +534,7 @@ header, #header {
 }
 .phone #top-nav > div > ul > li, 
 .phone #top-nav > div > div > ul > li {
-  padding: 4px 16px 8px;
+  padding: 2px 16px 6px;
 }
 
 .sticky_menu #top-nav > div > ul > li,
@@ -616,6 +616,10 @@ header, #header {
   position: absolute;
   font-family: sans-serif;
 }
+#top-nav > div > ul > li ul li.haschild.sub_shift_parent > a:after,  
+#top-nav > div > div > ul > li ul li.haschild.sub_shift_parent >  a:after{
+  content: '◄';
+}
 
 #top-nav > div > ul > li ul li a, 
 #top-nav > div > ul > li ul li a:link, 
@@ -633,7 +637,20 @@ header, #header {
 #top-nav > div > ul > li ul li:first-child > a, #top-nav > div > div > ul > li ul li:first-child > a { border-top:0px !important;}
 
 #top-nav > div > ul > li ul ul, #top-nav > div > div > ul > li ul ul { top: 0px; left:100%; } 
-
+#top-nav > div > ul > li ul, #top-nav > div > div > ul > li ul {box-shadow: 0 0 3px rgba(0,0,0,0.3);
+ } 
+ul.sub-menu.sub_shift {
+    left: auto !important;
+    right: 100%;
+}
+ul.sub-menu.sub_d_shift {
+    left: 100% !important;
+    right: auto !important;
+}
+ul.sub-menu.first_sub_shift {
+    left: auto !important;
+    right: 0 !important;
+}
 .top-nav-list >ul > li:before, 
 #top-nav > div > ul > li:before, 
 #top-nav > div > div > ul > li:before{
@@ -1388,7 +1405,7 @@ aside .sidebar-container  .widget-area .testimonials > div  p {text-align:justif
 .percent_text_title{
   text-align:center;
   font-weight:bold;
-  font-size:19px;
+  font-size:18px;
   margin-top:5%;
   color:#000000 !important;
 }
@@ -1434,7 +1451,7 @@ aside .sidebar-container  .widget-area .testimonials > div  p {text-align:justif
 #videos-block .full-width {
   width: 75%;
   clear: both;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
@@ -1735,9 +1752,9 @@ h2.page-header > a{
   top: 32%;
 }
 
-#cont_title{color:#fff !important; font-weight:bold; font-size:25px;}
+#cont_title{color:#fff !important; font-weight:bold; font-size:22px;}
 
-#cont_text{color:#fff !important; font-size:20px;}
+#cont_text{color:#fff !important; font-size:18px;}
 
 .cont_home_form{  
   position:relative;
@@ -1805,28 +1822,21 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 
 /*---- SOCIAL ICONS(home) ----*/
 .right_home{
-  margin:1% 0% 0%;
+  margin:30px 0% 0%;
   float:right;
 }
-.right_home .front,.right_home .back { width:60px; height:60px;}  
 
-.twitter_home{background:url(images/social_icons/twitter1.png) no-repeat;}
-.twitter_home_back{background:url(images/social_icons/twitter2.png) no-repeat;}
+.twitter_home{background:#005E82;}
 
-.facebook_home{background:url(images/social_icons/facebook1.png) no-repeat;}
-.facebook_home_back{background:url(images/social_icons/facebook2.png) no-repeat;}
+.facebook_home{background:#3A589A;}
 
-.rss_home{background:url(images/social_icons/rss1.png) no-repeat;}
-.rss_home_back{background:url(images/social_icons/rss2.png) no-repeat;}
+.rss_home{background:#E09029;}
 
-.youtube_home{background:url(images/social_icons/youtube1.png) no-repeat;}
-.youtube_home_back{background:url(images/social_icons/youtube2.png) no-repeat;}
+.youtube_home{background:#D82B25;}
 
-.googlep_home{background:url(images/social_icons/googlep1.png) no-repeat;}
-.googlep_home_back{background:url(images/social_icons/googlep2.png) no-repeat;}
+.google-plus_home{background:#DC4A39;}
 
-.instagram_home{background:url(images/social_icons/instagram1.png) no-repeat;}
-.instagram_home_back{background:url(images/social_icons/instagram2.png) no-repeat;}
+.instagram_home{background:#795151;}
 
 .twitter_home,.twitter_home_back,.facebook_home,.facebook_home_back,.rss_home,.rss_home_back,
 .youtube_home,.youtube_home_back,.googlep_home,.googlep_home_back,.instagram_home,.instagram_home_back { background-size:contain;}
@@ -2015,10 +2025,11 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 
 /*flip*/
-.flip-container {
-  margin:15px 10px 15px 3px;
+.flip-container,
+.flip-container-soc {
+  margin:0px 5px 10px 5px;
   position:relative;
-  height:45px;
+  height:55px;
   width:55px;
   float:left;
    -webkit-perspective: 1000;
@@ -2026,6 +2037,16 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         -o-perspective: 1000;
        -ms-perspective: 1000;
            perspective: 1000;  
+}
+.phone .flip-container,
+.phone .flip-container-soc {
+  margin:0px 2px 7px 2px;
+}
+
+.widget_business_elite_social .flip-container,
+.widget_business_elite_social .flip-container-soc{
+  height:48px;
+  width:48px;
 }
 
 .flip-container:hover .flipper {
@@ -2063,10 +2084,78 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 
 .front {
-  width:55px; height:55px;
+  width:50px; height:50px;
   z-index:0; float:left;
+  text-align: center;
+}
+.social-widg-cont .front i,
+.right_home .front i{
+    font-size: 36px;
+    padding-top: 9px;
+    color: #fff;
+    transition:all .2s;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+}
+.social-widg-cont .front:hover i,
+.right_home .front:hover i{
+    font-size: 30px;
+    padding-top: 12px;
 }
 
+/*
+.social-widg-cont .front i.fa-facebook,
+.right_home .front i.fa-facebook{
+    font-size: 37px;
+    padding-top: 11px;
+}
+.social-widg-cont .front:hover i.fa-facebook,
+.right_home .front:hover i.fa-facebook{
+    font-size: 31px;
+    padding-top: 13px;
+}
+.social-widg-cont .front i.fa-rss,
+.right_home .front i.fa-rss{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.social-widg-cont .front:hover i.fa-rss,
+.right_home .front:hover i.fa-rss{
+    font-size: 28px;
+    padding-top: 13px;
+}
+.social-widg-cont .front i.fa-youtube,
+.right_home .front i.fa-youtube{
+    font-size: 32px;
+    padding-top: 8px;
+}
+.social-widg-cont .front:hover i.fa-youtube,
+.right_home .front:hover i.fa-youtube{
+    font-size: 24px;
+    padding-top: 11px;
+}
+.social-widg-cont .front i.fa-google-plus,
+.right_home .front i.fa-google-plus{
+    font-size: 34px;
+    padding-top: 10px;
+}
+.social-widg-cont .front:hover i.fa-google-plus,
+.right_home .front:hover i.fa-google-plus{
+    font-size: 27px;
+    padding-top: 13px;
+}
+.social-widg-cont .front i.fa-instagram,
+.right_home .front i.fa-instagram{
+    font-size: 35px;
+    padding-top: 11px;
+}
+
+.social-widg-cont .front:hover i.fa-instagram,
+.right_home .front:hover i.fa-instagram{
+    font-size: 28px;
+    padding-top: 13px;
+}
+*/
 .front img {
   position:absolute;
   height:55px;
@@ -2270,7 +2359,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 /*--Title--*/
 .blog-post h3{
   border-bottom: 1px solid #F3EDED;
-  font-size:22px !important;
+  font-size:20px !important;
   text-transform: uppercase;
   padding: 12px 20px;
   font-weight: 700;
@@ -2300,7 +2389,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 .blog-post .read_more{ 
   text-transform:uppercase;
   padding:15px 3%; 
-  font-size:19px;
+  font-size:18px;
 }
 
 .blog-post .read_more:hover{color:#000 !important;}
@@ -2696,8 +2785,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 
 .widget-title{
-  font-size:22px !important;
-  margin-bottom:9px !important;
+    font-size: 21px !important;
+    margin-bottom: 9px !important;
+    line-height: 1.2;
 }
 
 .single-post p{
@@ -3358,7 +3448,7 @@ body.phone{padding-top:0 !important;}
 }
 
 .phone #top-nav > div > ul > li.haschild.open > ul, 
-.phone #top-nav > div > div > ul > li.haschild.open > ul{display:table;}
+.phone #top-nav > div > div > ul > li.haschild.open > ul{display:table;box-shadow:none;}
 
 .phone #top-nav > div > ul  li a,
 .phone #top-nav > div > ul  li a:link.phone #top-nav > div > ul  li a:visited,
@@ -3366,6 +3456,7 @@ body.phone{padding-top:0 !important;}
 .phone #top-nav > div > div > ul  li a:link.phone #top-nav > div > div > ul  li a:visited {
   display:block;
   height:20px;
+  font-size: 16px;
 }
 
 .phone .top-nav-list > li.haschild > a:after { top:30px;left:49%;}
@@ -3381,6 +3472,7 @@ body.phone{padding-top:0 !important;}
   width:100%;
   left:auto;
   top:auto;
+  box-shadow:none;
 }
 
 .phone #top-nav > div > ul  li  ul li, .phone #top-nav > div > div > ul  li  ul li {
@@ -3554,7 +3646,7 @@ body.phone{padding-top:0 !important;}
 .phone .content-post:nth-child(2n+1) .eye_blog,
 .phone .content-post:nth-child(2n) .eye_blog{
   top:20% !important;
-  left:35%; 
+  left:40%; 
 }
 
 /*--- PORTFOLIO ---*/
@@ -3565,6 +3657,7 @@ body.phone{padding-top:0 !important;}
   height:250px; 
 }
   
+.phone .port_list li .link_post,
 .phone .port_list li .eye_port {
   top: 30% !important;
   left: 40% !important; 
@@ -3586,7 +3679,13 @@ body.phone{padding-top:0 !important;}
 
 .phone .cont_us_top li{margin-right: 0; float:none;}
 
-.phone .circle{margin:4% auto;}
+.phone .circle{
+  margin:4% auto;
+  border:2px solid white;
+  border-radius:120px;
+  height:120px;
+  width:120px;
+}
 
 
 /*//////*/
@@ -4438,27 +4537,35 @@ span.zoom{
   position:absolute;
   display:none;
 }
+.link_post{
+  background:url(images/link_post.png) no-repeat center;
+  background-size:55%;
+  border:3px solid white;
+  position:absolute;
+  display:none;
+}
 
-.port_list li .eye_port,.eye_single, 
+.port_list li .eye_port,.port_list li .link_post,.eye_single, 
 .content-post .eye_blog{
-  border-radius:90px;
-  height:90px;
-  width:90px;
+  border-radius:72px;
+  height:72px;
+  width:72px;
 }
 
 .eye_our{background-size:45px;}
 
 /*1*/
+.port_list li .link_post,
 .port_list li .eye_port{
   top:40% !important;
-  left:40% !important;
+  left:42% !important;
 }
 .eye_single{
   top:30% !important;
   left:35% !important;
 }
 
-.port_list li:hover .eye_port,.post-thumbnail-div .post-thumbnail:hover .eye_single  {display:block; z-index: 1;}
+.port_list li:hover .eye_port,.port_list li:hover .link_post,.post-thumbnail-div .post-thumbnail:hover .eye_single  {display:block; z-index: 1;}
 
 /*2*/
 .content-post:nth-child(2n+1) .eye_blog{top: 15% !important; left:33%;}

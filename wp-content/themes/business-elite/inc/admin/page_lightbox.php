@@ -4,6 +4,16 @@ class WDWT_lightbox_page_class{
  
   function __construct(){
     $this->options = array(
+      'lbox_disable' => array( 
+        "name" => "lbox_disable", 
+        "title" => __("Disable lightbox", "business-elite"), 
+        'type' => 'checkbox',
+        "description" => __("Disable lightbox", "business-elite"), 
+        'section' => 'lightbox', 
+        'tab' => 'lightbox',
+        'default' => false ,
+        'customizer' => array()     
+      ),
       'lbox_slideshow_interval' => array( 
         "name" => "lbox_slideshow_interval", 
         "title" => __("Slideshow interval.", "business-elite"), 

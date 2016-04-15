@@ -5,7 +5,6 @@ define("WDWT_TITLE", "Business Elite");
 define("WDWT_SLUG", "business-elite");
 define("WDWT_VAR", "business_elite");
 /*translation text domain*/
-
 define("WDWT_META", "_".WDWT_SLUG."_meta");
 define("WDWT_OPT", WDWT_VAR."_options");
 define("WDWT_VERSION", wp_get_theme()->get( 'Version' ) );

@@ -1,0 +1,453 @@
+.navbar-brand {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.nav-arrows span:hover{
+    -webkit-animation: bounceIn_custom 0.7s ease-in-out;
+    -moz-animation: bounceIn_custom 0.7s ease-in-out;
+    -o-animation: bounceIn_custom 0.7s ease-in-out;
+    animation: bounceIn_custom 0.7s ease-in-out;
+}
+.sl-trans-elems .deco {
+    -webkit-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -moz-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -o-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -ms-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+}
+.sl-trans-elems h2 {
+    -webkit-animation: moveUp 1s ease-in-out both;
+    -moz-animation: moveUp 1s ease-in-out both;
+    -o-animation: moveUp 1s ease-in-out both;
+    -ms-animation: moveUp 1s ease-in-out both;
+    animation: moveUp 1s ease-in-out both;
+}
+.sl-trans-elems blockquote {
+    -webkit-animation: fadeIn 0.5s linear 0.5s both;
+    -moz-animation: fadeIn 0.5s linear 0.5s both;
+    -o-animation: fadeIn 0.5s linear 0.5s both;
+    -ms-animation: fadeIn 0.5s linear 0.5s both;
+    animation: fadeIn 0.5s linear 0.5s both;
+}
+.sl-trans-back-elems .deco {
+    -webkit-animation: scaleDown 1s ease-in-out both;
+    -moz-animation: scaleDown 1s ease-in-out both;
+    -o-animation: scaleDown 1s ease-in-out both;
+    -ms-animation: scaleDown 1s ease-in-out both;
+    animation: scaleDown 1s ease-in-out both;
+}
+.sl-trans-back-elems h2 {
+    -webkit-animation: fadeOut 1s ease-in-out both;
+    -moz-animation: fadeOut 1s ease-in-out both;
+    -o-animation: fadeOut 1s ease-in-out both;
+    -ms-animation: fadeOut 1s ease-in-out both;
+    animation: fadeOut 1s ease-in-out both;
+}
+.sl-trans-back-elems blockquote {
+    -webkit-animation: fadeOut 1s linear both;
+    -moz-animation: fadeOut 1s linear both;
+    -o-animation: fadeOut 1s linear both;
+    -ms-animation: fadeOut 1s linear both;
+    animation: fadeOut 1s linear both;
+}
+@-webkit-keyframes roll {
+    0% {
+        -webkit-transform: translateX(500px) rotate(360deg);
+    }
+    100% {
+        -webkit-transform: translateX(0px) rotate(0deg);
+    }
+}
+@-moz-keyframes roll {
+    0% {
+        -moz-transform: translateX(500px) rotate(360deg);
+    }
+    100% {
+        -moz-transform: translateX(0px) rotate(0deg);
+    }
+}
+@-o-keyframes roll {
+    0% {
+        -o-transform: translateX(500px) rotate(360deg);
+    }
+    100% {
+        -o-transform: translateX(0px) rotate(0deg);
+    }
+}
+@-ms-keyframes roll {
+    0% {
+        -ms-transform: translateX(500px) rotate(360deg);
+    }
+    100% {
+        -ms-transform: translateX(0px) rotate(0deg);
+    }
+}
+@keyframes roll {
+    0% {
+        transform: translateX(500px) rotate(360deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+@-webkit-keyframes moveUp {
+    0% {
+        -webkit-transform: translateY(40px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+@-moz-keyframes moveUp {
+    0% {
+        -moz-transform: translateY(40px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+@-o-keyframes moveUp {
+    0% {
+        -o-transform: translateY(40px);
+    }
+    100% {
+        -o-transform: translateY(0px);
+    }
+}
+@-ms-keyframes moveUp {
+    0% {
+        -ms-transform: translateY(40px);
+    }
+    100% {
+        -ms-transform: translateY(0px);
+    }
+}
+@keyframes moveUp {
+    0% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@-webkit-keyframes scaleDown {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+    }
+}
+@-moz-keyframes scaleDown {
+    0% {
+        -moz-transform: scale(1);
+    }
+    100% {
+        -moz-transform: scale(0.5);
+    }
+}
+@-o-keyframes scaleDown {
+    0% {
+        -o-transform: scale(1);
+    }
+    100% {
+        -o-transform: scale(0.5);
+    }
+}
+@-ms-keyframes scaleDown {
+    0% {
+        -ms-transform: scale(1);
+    }
+    100% {
+        -ms-transform: scale(0.5);
+    }
+}
+@keyframes scaleDown {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
+.slider_caption .slider_button {
+    transition-delay: .9s;
+}
+.slider_caption h2 {
+    transition-delay: .3s;
+    -webkit-animation: moveUp 1s ease-in-out both;
+    -moz-animation: moveUp 1s ease-in-out both;
+    -o-animation: moveUp 1s ease-in-out both;
+    -ms-animation: moveUp 1s ease-in-out both;
+    animation: moveUp 1s ease-in-out both;
+}
+.slider_caption p {
+    transition-delay: .6s;
+    -webkit-animation: fadeIn 0.4s linear 0.5s both;
+    -moz-animation: fadeIn 0.4s linear 0.5s both;
+    -o-animation: fadeIn 0.4s linear 0.5s both;
+    -ms-animation: fadeIn 0.4s linear 0.5s both;
+    animation: fadeIn 0.4s linear 0.5s both;
+}
+.slider_caption .slider_button:hover{
+    -webkit-animation: bounceIn_custom 0.7s ease-in-out;
+    -moz-animation: bounceIn_custom 0.7s ease-in-out;
+    -o-animation: bounceIn_custom 0.7s ease-in-out;
+    animation: bounceIn_custom 0.7s ease-in-out;
+}
+.services_div .glyphicon {
+    -moz-transition: all 0.8s cubic-bezier(0.13, -0.04, 0.71, 1.68);
+    -webkit-transition: all 0.8s cubic-bezier(0.13, -0.04, 0.71, 1.68);
+    -o-transition: all 0.8s cubic-bezier(0.13, -0.04, 0.71, 1.68);
+    transition: all 0.8s cubic-bezier(0, 0, 0.56, 1.08);
+}
+.services_div .services_item .glyphicon:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.blog_div .post .post_image img {
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.blog_div .post:hover .post_image img {
+    -moz-transform: scale(1.1)  translate(0px);
+    -webkit-transform: scale(1.1)  translate(0px);
+    -o-transform: scale(1.1) translate(0px);
+    transform: scale(1.1) translate(0px);
+}
+.gallery_wrapper #filters li {
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pricing_wrapper .pricing_item {
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s ease-out;
+}
+.pricing_wrapper .pricing_item:hover {
+    -moz-box-shadow: 0 0 3px 1px rgba(255, 254, 254, 0.51);
+    -webkit-box-shadow:0 0 3px 1px rgba(255, 254, 254, 0.51);
+    box-shadow: 0 0 3px 1px rgba(255, 254, 254, 0.51);
+    transform: scale(1.05) !important;
+}
+.team_wrapper .team_item .team_image .team_caption {
+    -moz-transition: all 0.7s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -webkit-transition: all 0.7s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -o-transition: all 0.7s cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: all 0.7s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.contact_div .contactform input[type="text"],
+.contact_div .contactform input[type="email"],
+.contact_div .contactform textarea {
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.scroll-top a {
+    animation: bounce 2s infinite;
+    -webkit-animation: pulse 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+.animated {
+    -webkit-transform: translate3d(0,0,0);
+}
+.animated.bounce.animation_started {
+    -webkit-animation-duration: 1.8s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1.8s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -o-animation-duration: 1.8s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode: both;
+    -ms-animation-duration: 1.8s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode: both;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation-name: bounceInUp;
+    -moz-animation-name: bounceInUp;
+    -o-animation-name: bounceInUp;
+    -ms-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+}
+.animated.fade_down.animation_started  {
+    -webkit-animation-duration: .3s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .3s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -o-animation-duration: .3s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode: both;
+    -ms-animation-duration: .3s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode: both;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    -ms-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated.fade_in_up.animation_started  {
+    -webkit-animation-duration: .9s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .9s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -o-animation-duration: .9s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode: both;
+    -ms-animation-duration: .9s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode: both;
+    animation-duration: .9s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    -ms-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated.fade_left.animation_started {
+    -webkit-animation-duration: .6s;
+    -moz-animation-duration: .6s;
+    -o-animation-duration: .6s;
+    -ms-animation-duration: .6s;
+    animation-duration: .6s;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;    
+    -moz-animation-fill-mode: both;        
+    -o-animation-fill-mode: both;        
+    -ms-animation-fill-mode: both;       
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    -ms-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.animated.fade_right.animation_started {
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -o-animation-duration: 1.2s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-fill-mode: both;
+    -ms-animation-duration: 1.2s;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-fill-mode: both;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    -ms-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.animated.zoom_in.animation_started  {
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -ms-animation-duration: .9s;
+    -o-animation-duration: .9s;
+    -moz-animation-duration: .9s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    -ms-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;    
+    -moz-animation-fill-mode: both;        
+    -o-animation-fill-mode: both;        
+    -ms-animation-fill-mode: both;        
+    animation-fill-mode: both;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+    -o-animation-name: zoomIn;
+    -ms-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.animated.roll_in.animation_started  {
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -ms-animation-duration: .9s;
+    -o-animation-duration: .9s;
+    -moz-animation-duration: .9s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    -ms-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;    
+    -moz-animation-fill-mode: both;        
+    -o-animation-fill-mode: both;        
+    -ms-animation-fill-mode: both;        
+    animation-fill-mode: both;
+    -webkit-animation-name: rollIn;
+    -moz-animation-name: rollIn;
+    -o-animation-name: rollIn;
+    -ms-animation-name: rollIn;
+    animation-name: rollIn;
+}
+input[type="submit"] {
+    transition: background-color 0.2s ease-in;
+}
+.post_content  a:hover{
+    -webkit-transition: color 0.5s;
+    -moz-transition:  color 0.5s;
+    transition:  color 0.5s;
+}
+.posted_by a{
+    transition: all .5s;
+}
+.post_comment a {
+    transition: all .5s;
+}
+.paging li a {
+    transition: background-color 0.2s ease-in;
+}
+.sidebar .tagcloud a{
+    transition: color .7s ease-in-out;
+}
+.post #searchsubmit {
+    transition: background-color 0.2s ease-in;
+}
+.screen-reader-text{}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea{
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

@@ -38,7 +38,8 @@ class WDWT_general_settings_page_class {
 				'tab' => 'general', 
 				'default' => true,
 				'customizer' => array()           
-			), 	
+			),
+
 			/*--- GRAB IMAGE ---*/
 			'grab_image' => array(
 				'name' => 'grab_image',
@@ -49,7 +50,8 @@ class WDWT_general_settings_page_class {
 				'tab' => 'general',
 				'default' => true,
 				'customizer' => array()
-			),  			
+			), 
+		  			
 			/*--- DATE ---*/
 			'date_enable' => array(
 				"name" => "date_enable",

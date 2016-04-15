@@ -613,3 +613,15 @@ table.wdwt_meta td { width:100%; }
 #customize-controls .customize-info{
   background: #fff;
 }
+
+
+#customize-controls .customize-control-radio input{
+  margin-left: 0; 
+}
+
+.customize-control-checkbox label{
+  margin-left: 0;
+}
+.customize-control-checkbox input{
+  margin-left: 0;
+}

@@ -88,12 +88,12 @@ jQuery(document).ready(function(){
     jQuery(this).addClass("active");
     jQuery(this).find("ul").eq(0).css({'z-index': jQuery(this).css('z-index')+1});
     /*horizontall scroll prevention*/
-    
-    {
+
+    { 
       if(jQuery(this).find('ul').eq(0).length){
         open_submenu = jQuery(this).find('ul').eq(0);
         sub_left = open_submenu.offset().left;
-        sub_width = open_submenu.width();
+        sub_width = open_submenu.width(); 
         current_left = open_submenu.position().left;
         parent_class = function(classname) { 
 
@@ -101,15 +101,19 @@ jQuery(document).ready(function(){
         }
         
         if(current_left + /*parent_left +*/  sub_left + sub_width > jQuery(window).width() ){
-            if(parent_class('sub_shift')){
+            if(!jQuery(this).parent().hasClass("sub-menu")){
+              open_submenu.addClass('first_sub_shift');
+            }
+            else if(parent_class('sub_shift')){
               /*parent also shifted*/
-              parent_w = open_submenu.parent().parent().width();
-               open_submenu.addClass('sub_d_shift');
-              open_submenu.css({left:current_left + jQuery(window).width()-24 - parent_w- sub_left - sub_width });  
+             /* parent_w = open_submenu.parent().parent().width();*/
+              open_submenu.addClass('sub_d_shift');
+             /* open_submenu.css({left:current_left + jQuery(window).width()-24 - parent_w- sub_left - sub_width });  */
             }
             else{
               open_submenu.addClass('sub_shift');
-              open_submenu.css({left:current_left + jQuery(window).width()-24 - sub_left - sub_width });
+              jQuery(this).addClass('sub_shift_parent');
+              //open_submenu.css({left:current_left + jQuery(window).width()-24 - sub_left - sub_width });
             }
         }
       }
@@ -143,7 +147,7 @@ jQuery(document).ready(function(){
     }
   });
   
-  jQuery( '#top-nav ul  li > a:not(#top-nav li.haschild > a)').on('click' , function(){ /// the same code as in wdwt_attach_event_addedli, cannot delegate
+  jQuery( '#top-nav ul  li > a:not(#top-nav li.haschild > a)').on('click' , function(){ /* the same code as in wdwt_attach_event_addedli, cannot delegate*/
     if(jQuery("body").hasClass("phone")) {
       jQuery("#header #top-nav").slideUp("fast");
       jQuery("#top-nav").removeClass("open");
@@ -419,6 +423,9 @@ function wdwt_reset_submenus(){
   jQuery('#top-nav > div ul.sub-menu').css({left:''});
   jQuery('#top-nav > div ul.sub_shift').removeClass('sub_shift');
   jQuery('#top-nav > div ul.sub_d_shift').removeClass('sub_d_shift');
+  jQuery('#top-nav > div ul.sub_d_shift').removeClass('first_sub_shift');
+  jQuery('#top-nav .sub_shift_parent').removeClass('sub_shift_parent');
+  
 }
 
 
